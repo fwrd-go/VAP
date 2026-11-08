@@ -46,8 +46,8 @@ def main():
     not_found=bool(re.search(r'Property Not Found|Page Not Found|No longer found|404 Not Found',plain,re.I))
     if address_ok and parcel_ok and available and not not_found:
      item.update(status='verified',reason='Exact parcel, address and Available status confirmed on listing page',listing_url=url)
-    elif not_found:item.update(status='needs_review',reason='Exact parcel page returns not found')
-    elif address_ok and parcel_ok:item.update(status='needs_review',reason='Listing found but availability not confirmed')
+    elif not_found:item.update(status='pending',reason='Constructed parcel URL returned not found; portal listing status unknown')
+    elif address_ok and parcel_ok:item.update(status='pending',reason='Listing found but availability not confirmed')
     else:item['reason']='Listing page did not confirm exact address and parcel'
    except Exception as e:item['reason']='Listing lookup unavailable: '+str(e)[:120]
   result['records'][key]=item
