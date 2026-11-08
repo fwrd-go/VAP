@@ -24,7 +24,7 @@ resolvedState='loading';resolvedIndex.clear();data.resolved=[];render();
 const files=Array.from({length:10},(_,i)=>'./data/vap-closed-'+String(i).padStart(2,'0')+'.txt');
 const loaded=await Promise.all(files.map(async file=>{
 const response=await fetch(file);if(!response.ok)throw Error(file+' HTTP '+response.status);
-const encoded=(await response.text()).replace(/\\s/g,'');
+const encoded=(await response.text()).replace(/\s/g,'');
 const binary=Uint8Array.from(atob(encoded),c=>c.charCodeAt(0));
 const stream=new Blob([binary]).stream().pipeThrough(new DecompressionStream('gzip'));
 return JSON.parse(await new Response(stream).text());
