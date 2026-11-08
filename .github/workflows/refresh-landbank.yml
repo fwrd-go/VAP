@@ -1,0 +1,28 @@
+name: Refresh Landbank master CSVs
+on:
+  schedule:
+    - cron: '17 11 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'west-end-map.html'
+      - 'scripts/update_lba_master.py'
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Rebuild master inventories
+        run: python scripts/update_lba_master.py
+      - name: Commit changed CSVs only
+        run: |
+          git add data/lba-master.csv data/metro-landbank-west-master.csv
+          if ! git diff --cached --quiet; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Refresh LBA and Metro/Landbank CSVs from map source'
+            git push
+          fi
