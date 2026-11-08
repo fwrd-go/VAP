@@ -1,0 +1,99 @@
+{
+  "source": "LandBankSearch public Louisville market page",
+  "source_url": "https://www.landbanksearch.com/market/louisville_lba",
+  "source_reported_total": 551,
+  "source_reported_updated": "2026-11-06",
+  "records": [
+    {
+      "address": "711 Cecil Ave",
+      "source_url": "https://www.landbanksearch.com/market/louisville_lba",
+      "status": "third_party_reported",
+      "verified_available": false
+    },
+    {
+      "address": "1039 Kaiser Ct",
+      "source_url": "https://www.landbanksearch.com/market/louisville_lba",
+      "status": "third_party_reported",
+      "verified_available": false
+    },
+    {
+      "address": "4005 Churchman Ave",
+      "source_url": "https://www.landbanksearch.com/market/louisville_lba",
+      "status": "third_party_reported",
+      "verified_available": false
+    },
+    {
+      "address": "800 S 38th St",
+      "source_url": "https://www.landbanksearch.com/market/louisville_lba",
+      "status": "third_party_reported",
+      "verified_available": false
+    },
+    {
+      "address": "1033 Kaiser Ct",
+      "source_url": "https://www.landbanksearch.com/market/louisville_lba",
+      "status": "third_party_reported",
+      "verified_available": false
+    },
+    {
+      "address": "1507 Catalpa St",
+      "source_url": "https://www.landbanksearch.com/market/louisville_lba",
+      "status": "third_party_reported",
+      "verified_available": false
+    },
+    {
+      "address": "3234 Larkwood Ave",
+      "source_url": "https://www.landbanksearch.com/market/louisville_lba",
+      "status": "third_party_reported",
+      "verified_available": false
+    },
+    {
+      "address": "1820 Bank St",
+      "source_url": "https://www.landbanksearch.com/market/louisville_lba",
+      "status": "third_party_reported",
+      "verified_available": false
+    },
+    {
+      "address": "914 Dixie Hwy",
+      "source_url": "https://www.landbanksearch.com/market/louisville_lba",
+      "status": "third_party_reported",
+      "verified_available": false
+    },
+    {
+      "address": "1793 W Gaulbert Ave",
+      "source_url": "https://www.landbanksearch.com/market/louisville_lba",
+      "status": "third_party_reported",
+      "verified_available": false
+    },
+    {
+      "address": "2729 W Jefferson St",
+      "source_url": "https://www.landbanksearch.com/market/louisville_lba",
+      "status": "third_party_reported",
+      "verified_available": false
+    },
+    {
+      "address": "2642 Alford Ave",
+      "source_url": "https://www.landbanksearch.com/market/louisville_lba",
+      "status": "third_party_reported",
+      "verified_available": false
+    },
+    {
+      "address": "1633 S 30th St",
+      "source_url": "https://www.landbanksearch.com/market/louisville_lba",
+      "status": "third_party_reported",
+      "verified_available": false
+    },
+    {
+      "address": "1525 Dumesnil St",
+      "source_url": "https://www.landbanksearch.com/market/louisville_lba",
+      "status": "third_party_reported",
+      "verified_available": false
+    },
+    {
+      "address": "2636 Duncan St",
+      "source_url": "https://www.landbanksearch.com/market/louisville_lba",
+      "status": "third_party_reported",
+      "verified_available": false
+    }
+  ],
+  "notes": "Only 15 individually named properties visible in the public page have been imported; 551 is a source-reported total, not 551 fetched records. Not independently verified available; no exact official property URLs."
+}
