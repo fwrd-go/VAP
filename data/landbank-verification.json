@@ -348,10 +348,10 @@
       "address": "1240 S 17TH ST",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Official ePropertyPlus individual listing displays matching address, parcel and Property Status Available; checked 2026-11-08",
       "parcel_id": "039A00780000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=039A00780000"
     },
     "127DRWJHODGEST": {
       "address": "127 DR W J HODGE ST",
@@ -2983,8 +2983,8 @@
     }
   },
   "counts": {
-    "pending": 331,
-    "verified": 0,
-    "needs_review": 0
+    "pending": 330,
+    "needs_review": 0,
+    "verified": 1
   }
 }
