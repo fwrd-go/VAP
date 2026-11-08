@@ -1,0 +1,2989 @@
+{
+  "checked_at": "2026-11-08T23:17:15.519547+00:00",
+  "source": "Louisville ePropertyPlus individual listing pages",
+  "records": {
+    "1014S32NDST": {
+      "address": "1014 S 32ND ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "045C00460000",
+      "listing_url": ""
+    },
+    "1014RS32NDST": {
+      "address": "1014R S 32ND ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "045C00450000",
+      "listing_url": ""
+    },
+    "1019DIXIEHWY": {
+      "address": "1019 DIXIE HWY",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "037D01750000",
+      "listing_url": ""
+    },
+    "1022S28THST": {
+      "address": "1022 S 28TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1029DIXIEHWY": {
+      "address": "1029 DIXIE HWY",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1033DIXIEHWY": {
+      "address": "1033 DIXIE HWY",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1035DIXIEHWY": {
+      "address": "1035 DIXIE HWY",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1037DIXIEHWY": {
+      "address": "1037 DIXIE HWY",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1039SALEMAVE": {
+      "address": "1039 SALEM AVE",
+      "owner": "Metro Government",
+      "neighborhood": "CALIFORNIA",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1041DIXIEHWY": {
+      "address": "1041 DIXIE HWY",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1041SALEMAVE": {
+      "address": "1041 SALEM AVE",
+      "owner": "Metro Government",
+      "neighborhood": "CALIFORNIA",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1043DIXIEHWY": {
+      "address": "1043 DIXIE HWY",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1045DIXIEHWY": {
+      "address": "1045 DIXIE HWY",
+      "owner": "Metro Government",
+      "neighborhood": "CALIFORNIA",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1047DIXIEHWY": {
+      "address": "1047 DIXIE HWY",
+      "owner": "Metro Government",
+      "neighborhood": "CALIFORNIA",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1049DIXIEHWY": {
+      "address": "1049 DIXIE HWY",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1113WHILLST": {
+      "address": "1113 W HILL ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "111618DIXIEHWY": {
+      "address": "1116-18 DIXIE HWY",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1117S36THST": {
+      "address": "1117 S 36TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "CHICKASAW",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "045E00230000",
+      "listing_url": ""
+    },
+    "1119S38THST": {
+      "address": "1119 S 38TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "CHICKASAW",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "045D00140000",
+      "listing_url": ""
+    },
+    "112N19THST": {
+      "address": "112 N 19TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "112N25THST": {
+      "address": "112 N 25TH ST",
+      "owner": "Metro Government",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1126DIXIEHWY": {
+      "address": "1126 DIXIE HWY",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "038F01940000",
+      "listing_url": ""
+    },
+    "1128DIXIEHWY": {
+      "address": "1128 DIXIE HWY",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "038F00550056",
+      "listing_url": ""
+    },
+    "11315S22NDST": {
+      "address": "113-15 S 22ND ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1136S36THST": {
+      "address": "1136 S 36TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "CHICKASAW",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "045D00240000",
+      "listing_url": ""
+    },
+    "114S20THST": {
+      "address": "114 S 20TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "115S28THST": {
+      "address": "115 S 28TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "003J01660000",
+      "listing_url": ""
+    },
+    "11618S25THST": {
+      "address": "116-18 S 25TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1162S15THST": {
+      "address": "1162 S 15TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "037G00350000",
+      "listing_url": ""
+    },
+    "119S20THST": {
+      "address": "119 S 20TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "12022S25THST": {
+      "address": "120-22 S 25TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1206LOUISCOLEMANJRDR": {
+      "address": "1206 LOUIS COLEMAN JR DR",
+      "owner": "Metro Government",
+      "neighborhood": "CHICKASAW",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "045H00500000",
+      "listing_url": ""
+    },
+    "1209S26THST": {
+      "address": "1209 S 26TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "121N17THST": {
+      "address": "121 N 17TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "121S20THST": {
+      "address": "121 S 20TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1215S17THST": {
+      "address": "1215 S 17TH ST",
+      "owner": "Metro Government",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "039B01890000",
+      "listing_url": ""
+    },
+    "1232S15THST": {
+      "address": "1232 S 15TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "039B00880000",
+      "listing_url": ""
+    },
+    "1239DIXIEHWY": {
+      "address": "1239 DIXIE HWY",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "039A00040000",
+      "listing_url": ""
+    },
+    "1240S17THST": {
+      "address": "1240 S 17TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "039A00780000",
+      "listing_url": ""
+    },
+    "127DRWJHODGEST": {
+      "address": "127 DR W J HODGE ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1300S23RDST": {
+      "address": "1300 S 23RD ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1304S17THST": {
+      "address": "1304 S 17TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "039D00460000",
+      "listing_url": ""
+    },
+    "1306LINCOLNAVE": {
+      "address": "1306 LINCOLN AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "TAYLOR BERRY",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "063A00880000",
+      "listing_url": ""
+    },
+    "1315OLIVEST": {
+      "address": "1315 OLIVE ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "048E00940000",
+      "listing_url": ""
+    },
+    "1317DIXIEHWY": {
+      "address": "1317 DIXIE HWY",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "039C00890000",
+      "listing_url": ""
+    },
+    "1319DIXIEHWY": {
+      "address": "1319 DIXIE HWY",
+      "owner": "Metro Government",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "039C00880000",
+      "listing_url": ""
+    },
+    "1324OLIVEST": {
+      "address": "1324 OLIVE ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "048E00670000",
+      "listing_url": ""
+    },
+    "1327DIXIEHWY": {
+      "address": "1327 DIXIE HWY",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1327S22NDST": {
+      "address": "1327 S 22ND ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "041A00630000",
+      "listing_url": ""
+    },
+    "1329DIXIEHWY": {
+      "address": "1329 DIXIE HWY",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1336S22NDST": {
+      "address": "1336 S 22ND ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "041A00340000",
+      "listing_url": ""
+    },
+    "1342DIXIEHWY": {
+      "address": "1342 DIXIE HWY",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "041A01050000",
+      "listing_url": ""
+    },
+    "1346DIXIEHWY": {
+      "address": "1346 DIXIE HWY",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "041A01030000",
+      "listing_url": ""
+    },
+    "135153S26THST": {
+      "address": "1351-53 S 26TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1352S26THST": {
+      "address": "1352 S 26TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1354DIXIEHWY": {
+      "address": "1354 DIXIE HWY",
+      "owner": "Metro Government",
+      "neighborhood": "PARK HILL",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "041A00990000",
+      "listing_url": ""
+    },
+    "1364S20THST": {
+      "address": "1364 S 20TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "041B00980000",
+      "listing_url": ""
+    },
+    "1414RS07THST": {
+      "address": "1414R S 07TH ST",
+      "owner": "Metro Government",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1414RS09THST": {
+      "address": "1414R S 09TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1415S28THST": {
+      "address": "1415 S 28TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "048K00350000",
+      "listing_url": ""
+    },
+    "1416RS07THST": {
+      "address": "1416R S 07TH ST",
+      "owner": "Metro Government",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1423S10THST": {
+      "address": "1423 S 10TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "042B00840000",
+      "listing_url": ""
+    },
+    "1424S09THST": {
+      "address": "1424 S 09TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1424RS09THST": {
+      "address": "1424R S 09TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1432S07THST": {
+      "address": "1432 S 07TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1434S07THST": {
+      "address": "1434 S 07TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1442S11THST": {
+      "address": "1442 S 11TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "042B00360000",
+      "listing_url": ""
+    },
+    "1444S11THST": {
+      "address": "1444 S 11TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "042B00350000",
+      "listing_url": ""
+    },
+    "1445S08THST": {
+      "address": "1445 S 08TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1452S11THST": {
+      "address": "1452 S 11TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "042B00320000",
+      "listing_url": ""
+    },
+    "1454S11THST": {
+      "address": "1454 S 11TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "042B00310000",
+      "listing_url": ""
+    },
+    "1460S12THST": {
+      "address": "1460 S 12TH ST",
+      "owner": "Metro Government",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "042A00650000",
+      "listing_url": ""
+    },
+    "1462S12THST": {
+      "address": "1462 S 12TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "042A00640000",
+      "listing_url": ""
+    },
+    "1469S12THST": {
+      "address": "1469 S 12TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "042B00120000",
+      "listing_url": ""
+    },
+    "1515WJEFFERSONST": {
+      "address": "1515 W JEFFERSON ST",
+      "owner": "Urban Renewal",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "014A00620000",
+      "listing_url": ""
+    },
+    "1516CONGRESSST": {
+      "address": "1516 CONGRESS ST",
+      "owner": "Urban Renewal",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "014A00660000",
+      "listing_url": ""
+    },
+    "1522HALEAVE": {
+      "address": "1522 HALE AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "037G01350000",
+      "listing_url": ""
+    },
+    "1608WKENTUCKYST": {
+      "address": "1608 W KENTUCKY ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1610WKENTUCKYST": {
+      "address": "1610 W KENTUCKY ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1631WILSONAVE": {
+      "address": "1631 WILSON AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "039D00670000",
+      "listing_url": ""
+    },
+    "1634DUMESNILST": {
+      "address": "1634 DUMESNIL ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "039B00200000",
+      "listing_url": ""
+    },
+    "1634NELLIGANAVE": {
+      "address": "1634 NELLIGAN AVE",
+      "owner": "Metro Government",
+      "neighborhood": "PORTLAND",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "015K00290000",
+      "listing_url": ""
+    },
+    "1636NELLIGANAVE": {
+      "address": "1636 NELLIGAN AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "015K00280000",
+      "listing_url": ""
+    },
+    "1641PORTLANDAVE": {
+      "address": "1641 PORTLAND AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1642NELLIGANAVE": {
+      "address": "1642 NELLIGAN AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1710WBRECKINRIDGEST": {
+      "address": "1710 W BRECKINRIDGE ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "037A01020000",
+      "listing_url": ""
+    },
+    "1714PORTLANDAVE": {
+      "address": "1714 PORTLAND AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1722BOLLINGAVE": {
+      "address": "1722 BOLLING AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "039F01040000",
+      "listing_url": ""
+    },
+    "1722STLOUISAVE": {
+      "address": "1722 ST LOUIS AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1724WGAULBERTST": {
+      "address": "1724 W GAULBERT ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "ALGONQUIN",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1725WSTCATHERINEST": {
+      "address": "1725 W ST CATHERINE ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1727WMARKETST": {
+      "address": "1727 W MARKET ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "014A00950000",
+      "listing_url": ""
+    },
+    "1727RWKENTUCKYST": {
+      "address": "1727R W KENTUCKY ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "037A01840000",
+      "listing_url": ""
+    },
+    "1729WKENTUCKYST": {
+      "address": "1729 W KENTUCKY ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "037A00170000",
+      "listing_url": ""
+    },
+    "1729WMARKETST": {
+      "address": "1729 W MARKET ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "014A00940000",
+      "listing_url": ""
+    },
+    "1729RWKENTUCKYST": {
+      "address": "1729R W KENTUCKY ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1731GALLAGHERST": {
+      "address": "1731 GALLAGHER ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1731ROWANST": {
+      "address": "1731 ROWAN ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1733GALLAGHERST": {
+      "address": "1733 GALLAGHER ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1733RGALLAGHERST": {
+      "address": "1733R GALLAGHER ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "173537GALLAGHERST": {
+      "address": "1735-37 GALLAGHER ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1737RWILSONAVE": {
+      "address": "1737R WILSON AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "039C01510000",
+      "listing_url": ""
+    },
+    "1740STLOUISAVE": {
+      "address": "1740 ST LOUIS AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1743HALEAVE": {
+      "address": "1743 HALE AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "037F02030000",
+      "listing_url": ""
+    },
+    "1752STLOUISAVE": {
+      "address": "1752 ST LOUIS AVE",
+      "owner": "Metro Government",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1753RSTLOUISAVE": {
+      "address": "1753R ST LOUIS AVE",
+      "owner": "Metro Government",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1765WILSONAVE": {
+      "address": "1765 WILSON AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1799BOLLINGAVE": {
+      "address": "1799 BOLLING AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "041F01600000",
+      "listing_url": ""
+    },
+    "1811LYTLEST": {
+      "address": "1811 LYTLE ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1812PIRTLEST": {
+      "address": "1812 PIRTLE ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "003M02510000",
+      "listing_url": ""
+    },
+    "18195OWENST": {
+      "address": "1819.5 OWEN ST",
+      "owner": "Metro Government",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "182123WMARKETST": {
+      "address": "1821-23 W MARKET ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1828CONGRESSST": {
+      "address": "1828 CONGRESS ST",
+      "owner": "Urban Renewal",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1830CONGRESSST": {
+      "address": "1830 CONGRESS ST",
+      "owner": "Urban Renewal",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1837BANKST": {
+      "address": "1837 BANK ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1841LYTLEST": {
+      "address": "1841 LYTLE ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1846BAIRDST": {
+      "address": "1846 BAIRD ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "015G00800000",
+      "listing_url": ""
+    },
+    "1900BANKST": {
+      "address": "1900 BANK ST",
+      "owner": "Metro Government",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1908PORTLANDAVE": {
+      "address": "1908 PORTLAND AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "004E01790000",
+      "listing_url": ""
+    },
+    "1916PORTLANDAVE": {
+      "address": "1916 PORTLAND AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1918OWENST": {
+      "address": "1918 OWEN ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "003G02040000",
+      "listing_url": ""
+    },
+    "1918PORTLANDAVE": {
+      "address": "1918 PORTLAND AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "1921PIRTLEST": {
+      "address": "1921 PIRTLE ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "003M00760000",
+      "listing_url": ""
+    },
+    "2001STLOUISAVE": {
+      "address": "2001 ST LOUIS AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2005STLOUISAVE": {
+      "address": "2005 ST LOUIS AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2005WMARKETST": {
+      "address": "2005 W MARKET ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "003M00150000",
+      "listing_url": ""
+    },
+    "2008WMUHAMMADALIBLVD": {
+      "address": "2008 W MUHAMMAD ALI BLVD",
+      "owner": "Urban Renewal",
+      "neighborhood": "RUSSELL",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "002K00450000",
+      "listing_url": ""
+    },
+    "2009LYTLEST": {
+      "address": "2009 LYTLE ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "201N26THST": {
+      "address": "201 N 26TH ST",
+      "owner": "Metro Government",
+      "neighborhood": "PORTLAND",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "003E00010000",
+      "listing_url": ""
+    },
+    "2010WCHESTNUTST": {
+      "address": "2010 W CHESTNUT ST",
+      "owner": "Urban Renewal",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2010WMUHAMMADALIBLVD": {
+      "address": "2010 W MUHAMMAD ALI BLVD",
+      "owner": "Urban Renewal",
+      "neighborhood": "RUSSELL",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "002K00440000",
+      "listing_url": ""
+    },
+    "2012WCHESTNUTST": {
+      "address": "2012 W CHESTNUT ST",
+      "owner": "Urban Renewal",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2012WMUHAMMADALIBLVD": {
+      "address": "2012 W MUHAMMAD ALI BLVD",
+      "owner": "Urban Renewal",
+      "neighborhood": "RUSSELL",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "002K00430000",
+      "listing_url": ""
+    },
+    "2014WMUHAMMADALIBLVD": {
+      "address": "2014 W MUHAMMAD ALI BLVD",
+      "owner": "Urban Renewal",
+      "neighborhood": "RUSSELL",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "002K00420000",
+      "listing_url": ""
+    },
+    "2018STANDARDAVE": {
+      "address": "2018 STANDARD AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2018WILSONAVE": {
+      "address": "2018 WILSON AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2022STANDARDAVE": {
+      "address": "2022 STANDARD AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2100GRIFFITHSAVE": {
+      "address": "2100 GRIFFITHS AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2102WILSONAVE": {
+      "address": "2102 WILSON AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "041A00470000",
+      "listing_url": ""
+    },
+    "2103STLOUISAVE": {
+      "address": "2103 ST LOUIS AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2107EDDYST": {
+      "address": "2107 EDDY ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "002K01400000",
+      "listing_url": ""
+    },
+    "2114ANDERSONST": {
+      "address": "2114 ANDERSON ST",
+      "owner": "Metro Government",
+      "neighborhood": "CALIFORNIA",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "036B00950000",
+      "listing_url": ""
+    },
+    "2116PIRTLEST": {
+      "address": "2116 PIRTLE ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2117WMUHAMMADALIBLVD": {
+      "address": "2117 W MUHAMMAD ALI BLVD",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2121WMUHAMMADALIBLVD": {
+      "address": "2121 W MUHAMMAD ALI BLVD",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2122COLUMBIAST": {
+      "address": "2122 COLUMBIA ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2125GREENALY": {
+      "address": "2125 GREEN ALY",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "002E00270000",
+      "listing_url": ""
+    },
+    "2126STANDARDAVE": {
+      "address": "2126 STANDARD AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2128COLUMBIAST": {
+      "address": "2128 COLUMBIA ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "003G02900000",
+      "listing_url": ""
+    },
+    "213DRWJHODGEST": {
+      "address": "213 DR W J HODGE ST",
+      "owner": "Metro Government",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "214N18THST": {
+      "address": "214 N 18TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "015F00330000",
+      "listing_url": ""
+    },
+    "2141COLUMBIAST": {
+      "address": "2141 COLUMBIA ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "003G02760000",
+      "listing_url": ""
+    },
+    "215N26THST": {
+      "address": "215 N 26TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "217DRWJHODGEST": {
+      "address": "217 DR W J HODGE ST",
+      "owner": "Metro Government",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2208ANDERSONST": {
+      "address": "2208 ANDERSON ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "036B00380000",
+      "listing_url": ""
+    },
+    "2209MAPLEST": {
+      "address": "2209 MAPLE ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "036B00220000",
+      "listing_url": ""
+    },
+    "2209OWENST": {
+      "address": "2209 OWEN ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "003F02140000",
+      "listing_url": ""
+    },
+    "221S19THST": {
+      "address": "221 S 19TH ST",
+      "owner": "Urban Renewal",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2210WMAINST": {
+      "address": "2210 W MAIN ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "003L00500000",
+      "listing_url": ""
+    },
+    "2211MAPLEST": {
+      "address": "2211 MAPLE ST",
+      "owner": "Metro Government",
+      "neighborhood": "CALIFORNIA",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "036B00210000",
+      "listing_url": ""
+    },
+    "2211OWENST": {
+      "address": "2211 OWEN ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "003F02150000",
+      "listing_url": ""
+    },
+    "2215OWENST": {
+      "address": "2215 OWEN ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "003F02160000",
+      "listing_url": ""
+    },
+    "2217WORMSBYAVE": {
+      "address": "2217 W ORMSBY AVE",
+      "owner": "Metro Government",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "038L00540000",
+      "listing_url": ""
+    },
+    "2219CONGRESSST": {
+      "address": "2219 CONGRESS ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2219GARFIELDAVE": {
+      "address": "2219 GARFIELD AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2224OWENST": {
+      "address": "2224 OWEN ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "003F01480000",
+      "listing_url": ""
+    },
+    "2224STXAVIERST": {
+      "address": "2224 ST XAVIER ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2225GARLANDAVE": {
+      "address": "2225 GARLAND AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "036G00010000",
+      "listing_url": ""
+    },
+    "2225PIRTLEST": {
+      "address": "2225 PIRTLE ST",
+      "owner": "Metro Government",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "003L00430000",
+      "listing_url": ""
+    },
+    "2226OWENST": {
+      "address": "2226 OWEN ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "003F01470000",
+      "listing_url": ""
+    },
+    "2227PIRTLEST": {
+      "address": "2227 PIRTLE ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "003L01520000",
+      "listing_url": ""
+    },
+    "2229PIRTLEST": {
+      "address": "2229 PIRTLE ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "003L01530000",
+      "listing_url": ""
+    },
+    "2240GREENWOODAVE": {
+      "address": "2240 GREENWOOD AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "038E00890000",
+      "listing_url": ""
+    },
+    "2300HOWARDST": {
+      "address": "2300 HOWARD ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "036F01560000",
+      "listing_url": ""
+    },
+    "2302HOWARDST": {
+      "address": "2302 HOWARD ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "036F01550000",
+      "listing_url": ""
+    },
+    "2309HOWARDST": {
+      "address": "2309 HOWARD ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "036F02200000",
+      "listing_url": ""
+    },
+    "2334ACKERMANCT": {
+      "address": "2334 ACKERMAN CT",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2344EDDYST": {
+      "address": "2344 EDDY ST",
+      "owner": "Metro Government",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "002J00830000",
+      "listing_url": ""
+    },
+    "2403RGRIFFITHSAVE": {
+      "address": "2403R GRIFFITHS AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "004H00710000",
+      "listing_url": ""
+    },
+    "2406MONTGOMERYST": {
+      "address": "2406 MONTGOMERY ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "005F00890000",
+      "listing_url": ""
+    },
+    "2408LYTLEST": {
+      "address": "2408 LYTLE ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "240911EDDYST": {
+      "address": "2409-11 EDDY ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2410LYTLEST": {
+      "address": "2410 LYTLE ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2412LYTLEST": {
+      "address": "2412 LYTLE ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "241315EDDYST": {
+      "address": "2413-15 EDDY ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2418RMONTGOMERYST": {
+      "address": "2418R MONTGOMERY ST",
+      "owner": "Metro Government",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2420GARFIELDAVE": {
+      "address": "2420 GARFIELD AVE",
+      "owner": "Metro Government",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "003B00830000",
+      "listing_url": ""
+    },
+    "2421OWENST": {
+      "address": "2421 OWEN ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "003E01500000",
+      "listing_url": ""
+    },
+    "2435CLEVELANDAVE": {
+      "address": "2435 CLEVELAND AVE",
+      "owner": "Metro Government",
+      "neighborhood": "PORTLAND",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "004H00780000",
+      "listing_url": ""
+    },
+    "2503BANKST": {
+      "address": "2503 BANK ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2508GREENALY": {
+      "address": "2508 GREEN ALY",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "250810GARFIELDAVE": {
+      "address": "2508-10 GARFIELD AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2510OWENST": {
+      "address": "2510 OWEN ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "003E01030000",
+      "listing_url": ""
+    },
+    "2514GREENALY": {
+      "address": "2514 GREEN ALY",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "002C00110000",
+      "listing_url": ""
+    },
+    "2520WOODLANDAVE": {
+      "address": "2520 WOODLAND AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "040J00210000",
+      "listing_url": ""
+    },
+    "2522STCECILIAST": {
+      "address": "2522 ST. CECILIA ST",
+      "owner": "Metro Government",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2522WOODLANDAVE": {
+      "address": "2522 WOODLAND AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "040J00200000",
+      "listing_url": ""
+    },
+    "2524WILSONAVE": {
+      "address": "2524 WILSON AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "040J00340000",
+      "listing_url": ""
+    },
+    "2525WMUHAMMADALIBLVD": {
+      "address": "2525 W MUHAMMAD ALI BLVD",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "002H01150000",
+      "listing_url": ""
+    },
+    "2526WILSONAVE": {
+      "address": "2526 WILSON AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARK HILL",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "040J00330000",
+      "listing_url": ""
+    },
+    "2527WMUHAMMADALIBLVD": {
+      "address": "2527 W MUHAMMAD ALI BLVD",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "002H01140000",
+      "listing_url": ""
+    },
+    "2534CROPST": {
+      "address": "2534 CROP ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2539CROPST": {
+      "address": "2539 CROP ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "003K00990000",
+      "listing_url": ""
+    },
+    "2540ROWANST": {
+      "address": "2540 ROWAN ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "003K00980000",
+      "listing_url": ""
+    },
+    "2606WKENTUCKYST": {
+      "address": "2606 W KENTUCKY ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2609WKENTUCKYST": {
+      "address": "2609 W KENTUCKY ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2610HALEAVE": {
+      "address": "2610 HALE AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2612WJEFFERSONST": {
+      "address": "2612 W JEFFERSON ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "002B00590000",
+      "listing_url": ""
+    },
+    "2622CONGRESSST": {
+      "address": "2622 CONGRESS ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "002B00860000",
+      "listing_url": ""
+    },
+    "2622WKENTUCKYST": {
+      "address": "2622 W KENTUCKY ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "046D00960000",
+      "listing_url": ""
+    },
+    "2622WMUHAMMADALIBLVD": {
+      "address": "2622 W MUHAMMAD ALI BLVD",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "002H00190000",
+      "listing_url": ""
+    },
+    "2630GREENWOODAVE": {
+      "address": "2630 GREENWOOD AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2634GREENWOODAVE": {
+      "address": "2634 GREENWOOD AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2635GARLANDAVE": {
+      "address": "2635 GARLAND AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2703WMARKETST": {
+      "address": "2703 W MARKET ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "003J01900000",
+      "listing_url": ""
+    },
+    "2708WMARKETST": {
+      "address": "2708 W MARKET ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "002B01320000",
+      "listing_url": ""
+    },
+    "2709EDDYST": {
+      "address": "2709 EDDY ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "002G01700000",
+      "listing_url": ""
+    },
+    "2709LYTLEST": {
+      "address": "2709 LYTLE ST",
+      "owner": "Metro Government",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2712SLEVINST": {
+      "address": "2712 SLEVIN ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "003D01070000",
+      "listing_url": ""
+    },
+    "2713CONGRESSST": {
+      "address": "2713 CONGRESS ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "002B01090000",
+      "listing_url": ""
+    },
+    "2724HOWARDST": {
+      "address": "2724 HOWARD ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "046B00850000",
+      "listing_url": ""
+    },
+    "2725HOWARDST": {
+      "address": "2725 HOWARD ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "046B00810000",
+      "listing_url": ""
+    },
+    "2731CONGRESSST": {
+      "address": "2731 CONGRESS ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "002B01300000",
+      "listing_url": ""
+    },
+    "2814WKENTUCKYST": {
+      "address": "2814 W KENTUCKY ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2815EDDYST": {
+      "address": "2815 EDDY ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "002G01330000",
+      "listing_url": ""
+    },
+    "2815WMADISONST": {
+      "address": "2815 W MADISON ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "002G00240000",
+      "listing_url": ""
+    },
+    "2819VIRGINIAAVE": {
+      "address": "2819 VIRGINIA AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2827GREENWOODAVE": {
+      "address": "2827 GREENWOOD AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2838SLEVINST": {
+      "address": "2838 SLEVIN ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2903CLEVELANDAVE": {
+      "address": "2903 CLEVELAND AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "004F00270000",
+      "listing_url": ""
+    },
+    "2905CLEVELANDAVE": {
+      "address": "2905 CLEVELAND AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "004F00260000",
+      "listing_url": ""
+    },
+    "2918PORTLANDAVE": {
+      "address": "2918 PORTLAND AVE",
+      "owner": "Metro Government",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "004A00610000",
+      "listing_url": ""
+    },
+    "2932PORTLANDAVE": {
+      "address": "2932 PORTLAND AVE",
+      "owner": "Metro Government",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "2933VIRGINIAAVE": {
+      "address": "2933 VIRGINIA AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "046J00490000",
+      "listing_url": ""
+    },
+    "300N17THST": {
+      "address": "300 N 17TH ST",
+      "owner": "Metro Government",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "3014GREENWOODAVE": {
+      "address": "3014 GREENWOOD AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "046E00900000",
+      "listing_url": ""
+    },
+    "3029RDUMESNILST": {
+      "address": "3029R DUMESNIL ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "046H00190000",
+      "listing_url": ""
+    },
+    "3040GREENWOODAVE": {
+      "address": "3040 GREENWOOD AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "046E00780000",
+      "listing_url": ""
+    },
+    "309N22NDST": {
+      "address": "309 N 22ND ST",
+      "owner": "Metro Government",
+      "neighborhood": "PORTLAND",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "003G00790000",
+      "listing_url": ""
+    },
+    "309S20THST": {
+      "address": "309 S 20TH ST",
+      "owner": "Urban Renewal",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "310204WJEFFERSONST": {
+      "address": "3102-04 W JEFFERSON ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "3103PORTLANDAVE": {
+      "address": "3103 PORTLAND AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "012G01110000",
+      "listing_url": ""
+    },
+    "3111WJEFFERSONST": {
+      "address": "3111 W JEFFERSON ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "3113WOODLANDAVE": {
+      "address": "3113 WOODLAND AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "3115WOODLANDAVE": {
+      "address": "3115 WOODLAND AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "3117WOODLANDAVE": {
+      "address": "3117 WOODLAND AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "3119HALEAVE": {
+      "address": "3119 HALE AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "3119WOODLANDAVE": {
+      "address": "3119 WOODLAND AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "3123VERMONTAVE": {
+      "address": "3123 VERMONT AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "3125VERMONTAVE": {
+      "address": "3125 VERMONT AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "315DRWJHODGEST": {
+      "address": "315 DR W J HODGE ST",
+      "owner": "Urban Renewal",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "002E00480000",
+      "listing_url": ""
+    },
+    "315S20THST": {
+      "address": "315 S 20TH ST",
+      "owner": "Urban Renewal",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "3200RUDDAVE": {
+      "address": "3200 RUDD AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "3209DUMESNILST": {
+      "address": "3209 DUMESNIL ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "320RN23RDST": {
+      "address": "320R N 23RD ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "3218KIRBYAVE": {
+      "address": "3218 KIRBY AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "3221RGRANDAVE": {
+      "address": "3221R GRAND AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "045F00950000",
+      "listing_url": ""
+    },
+    "3225GREENWOODAVE": {
+      "address": "3225 GREENWOOD AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "045C00140000",
+      "listing_url": ""
+    },
+    "3229LARKWOODAVE": {
+      "address": "3229 LARKWOOD AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "SHAWNEE",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "008H00210000",
+      "listing_url": ""
+    },
+    "3235ROLEANDAAVE": {
+      "address": "3235R OLEANDA AVE",
+      "owner": "Metro Government",
+      "neighborhood": "TAYLOR BERRY",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "3315RWKENTUCKYST": {
+      "address": "3315R W KENTUCKY ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "045C00580000",
+      "listing_url": ""
+    },
+    "3323WKENTUCKYST": {
+      "address": "3323 W KENTUCKY ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "045C00530000",
+      "listing_url": ""
+    },
+    "3415GRANDAVE": {
+      "address": "3415 GRAND AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "CHICKASAW",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "3421GRANDAVE": {
+      "address": "3421 GRAND AVE",
+      "owner": "Metro Government",
+      "neighborhood": "CHICKASAW",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "045E00720000",
+      "listing_url": ""
+    },
+    "3518VIRGINIAAVE": {
+      "address": "3518 VIRGINIA AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "CHICKASAW",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "045H00370000",
+      "listing_url": ""
+    },
+    "3626WBROADWAY": {
+      "address": "3626 W BROADWAY",
+      "owner": "Landbank Authority",
+      "neighborhood": "CHICKASAW",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "043F00100000",
+      "listing_url": ""
+    },
+    "3705GREENWOODAVE": {
+      "address": "3705 GREENWOOD AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "CHICKASAW",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "3709GREENWOODAVE": {
+      "address": "3709 GREENWOOD AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "CHICKASAW",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "3714GRANDAVE": {
+      "address": "3714 GRAND AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "CHICKASAW",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "045D00280000",
+      "listing_url": ""
+    },
+    "3831GRANDAVE": {
+      "address": "3831 GRAND AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "CHICKASAW",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "044F01470000",
+      "listing_url": ""
+    },
+    "3834RIVERPARKDR": {
+      "address": "3834 RIVER PARK DR",
+      "owner": "Landbank Authority",
+      "neighborhood": "SHAWNEE",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "3904GREENWOODAVE": {
+      "address": "3904 GREENWOOD AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "CHICKASAW",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "044F01620000",
+      "listing_url": ""
+    },
+    "4024LARKWOODAVE": {
+      "address": "4024 LARKWOOD AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "SHAWNEE",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "007C00110000",
+      "listing_url": ""
+    },
+    "408N21STST": {
+      "address": "408 N 21ST ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "004J00620000",
+      "listing_url": ""
+    },
+    "410N35THST": {
+      "address": "410 N 35TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "SHAWNEE",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "412RN38THST": {
+      "address": "412R N 38TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "SHAWNEE",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "4134RGREENWOODAVE": {
+      "address": "4134R GREENWOOD AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "CHICKASAW",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "044E00970000",
+      "listing_url": ""
+    },
+    "4136RGREENWOODAVE": {
+      "address": "4136R GREENWOOD AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "CHICKASAW",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "044E01010000",
+      "listing_url": ""
+    },
+    "417N22NDST": {
+      "address": "417 N 22ND ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "004J00660000",
+      "listing_url": ""
+    },
+    "420S27THST": {
+      "address": "420 S 27TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "431S20THST": {
+      "address": "431 S 20TH ST",
+      "owner": "Urban Renewal",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "433S20THST": {
+      "address": "433 S 20TH ST",
+      "owner": "Urban Renewal",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "438S18THST": {
+      "address": "438 S 18TH ST",
+      "owner": "Urban Renewal",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "440S18THST": {
+      "address": "440 S 18TH ST",
+      "owner": "Urban Renewal",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "441RN42NDST": {
+      "address": "441R N 42ND ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "SHAWNEE",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "011E00290000",
+      "listing_url": ""
+    },
+    "4507GRANDAVE": {
+      "address": "4507 GRAND AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "CHICKASAW",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "506N17THST": {
+      "address": "506 N 17TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "508N17THST": {
+      "address": "508 N 17TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "508S26THST": {
+      "address": "508 S 26TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "509S27THST": {
+      "address": "509 S 27TH ST",
+      "owner": "Metro Government",
+      "neighborhood": "RUSSELL",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "002H00170000",
+      "listing_url": ""
+    },
+    "510S18THST": {
+      "address": "510 S 18TH ST",
+      "owner": "Urban Renewal",
+      "neighborhood": "RUSSELL",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "002L00720000",
+      "listing_url": ""
+    },
+    "511N18THST": {
+      "address": "511 N 18TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "015G01440000",
+      "listing_url": ""
+    },
+    "511S27THST": {
+      "address": "511 S 27TH ST",
+      "owner": "Metro Government",
+      "neighborhood": "RUSSELL",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "002H01800000",
+      "listing_url": ""
+    },
+    "515S26THST": {
+      "address": "515 S 26TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "51618N31STST": {
+      "address": "516-18 N 31ST ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "519N31STST": {
+      "address": "519 N 31ST ST",
+      "owner": "Metro Government",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "525N31STST": {
+      "address": "525 N 31ST ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "533S18THST": {
+      "address": "533 S 18TH ST",
+      "owner": "Urban Renewal",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "013A00170000",
+      "listing_url": ""
+    },
+    "534LOCHERALY": {
+      "address": "534 LOCHER ALY",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "004B01450000",
+      "listing_url": ""
+    },
+    "534S26THST": {
+      "address": "534 S 26TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "001B01070000",
+      "listing_url": ""
+    },
+    "542S34THST": {
+      "address": "542 S 34TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "SHAWNEE",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "608S31STST": {
+      "address": "608 S 31ST ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "007K00290000",
+      "listing_url": ""
+    },
+    "609S19THST": {
+      "address": "609 S 19TH ST",
+      "owner": "Urban Renewal",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "001E00750000",
+      "listing_url": ""
+    },
+    "610S31STST": {
+      "address": "610 S 31ST ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "007K00280000",
+      "listing_url": ""
+    },
+    "613N32NDST": {
+      "address": "613 N 32ND ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "613S19THST": {
+      "address": "613 S 19TH ST",
+      "owner": "Urban Renewal",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "001E01690000",
+      "listing_url": ""
+    },
+    "616N27THST": {
+      "address": "616 N 27TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PORTLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "618DRWJHODGEST": {
+      "address": "618 DR W J HODGE ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "001D00200000",
+      "listing_url": ""
+    },
+    "618S31STST": {
+      "address": "618 S 31ST ST",
+      "owner": "Metro Government",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "007K00240000",
+      "listing_url": ""
+    },
+    "621S28THST": {
+      "address": "621 S 28TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "001A00190000",
+      "listing_url": ""
+    },
+    "621S31STST": {
+      "address": "621 S 31ST ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "006J01150000",
+      "listing_url": ""
+    },
+    "625S28THST": {
+      "address": "625 S 28th ST",
+      "owner": "Metro Government",
+      "neighborhood": "RUSSELL",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "001A00170000",
+      "listing_url": ""
+    },
+    "634S18THST": {
+      "address": "634 S 18TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "636S18THST": {
+      "address": "636 S 18TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "001J01030000",
+      "listing_url": ""
+    },
+    "644GRUNDERAVE": {
+      "address": "644 GRUNDER AVE",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "001H00840000",
+      "listing_url": ""
+    },
+    "644HCT": {
+      "address": "644 H CT",
+      "owner": "Metro Government",
+      "neighborhood": "RUSSELL",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "001H00350000",
+      "listing_url": ""
+    },
+    "646GRUNDERAVE": {
+      "address": "646 GRUNDER AVE",
+      "owner": "Metro Government",
+      "neighborhood": "RUSSELL",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "001H00830000",
+      "listing_url": ""
+    },
+    "648HCT": {
+      "address": "648 H CT",
+      "owner": "Metro Government",
+      "neighborhood": "RUSSELL",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "001H00340000",
+      "listing_url": ""
+    },
+    "650HCT": {
+      "address": "650 H CT",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "001H00330000",
+      "listing_url": ""
+    },
+    "652HCT": {
+      "address": "652 H CT",
+      "owner": "Landbank Authority",
+      "neighborhood": "RUSSELL",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "001H00320000",
+      "listing_url": ""
+    },
+    "671CURRYCT": {
+      "address": "671 CURRY CT",
+      "owner": "Metro Government",
+      "neighborhood": "SHAWNEE",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "734S32NDST": {
+      "address": "734 S 32ND ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "pending",
+      "reason": "Listing page did not confirm exact address and parcel",
+      "parcel_id": "043H00580000",
+      "listing_url": ""
+    },
+    "738RDRWJHODGEST": {
+      "address": "738R DR W J HODGE ST",
+      "owner": "Metro Government",
+      "neighborhood": "CALIFORNIA",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "036B00830000",
+      "listing_url": ""
+    },
+    "739S17THST": {
+      "address": "739 S 17TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "808S35THST": {
+      "address": "808 S 35TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "CHICKASAW",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "817S23RDST": {
+      "address": "817 S 23RD ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "036G00990000",
+      "listing_url": ""
+    },
+    "830LOUISCOLEMANJRDR": {
+      "address": "830 LOUIS COLEMAN JR DR",
+      "owner": "Landbank Authority",
+      "neighborhood": "CHICKASAW",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "043G01450000",
+      "listing_url": ""
+    },
+    "841S26THST": {
+      "address": "841 S 26TH ST",
+      "owner": "Metro Government",
+      "neighborhood": "CALIFORNIA",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "036F00210000",
+      "listing_url": ""
+    },
+    "91113S17THST": {
+      "address": "911-13 S 17TH ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "912S32NDST": {
+      "address": "912 S 32ND ST",
+      "owner": "Landbank Authority",
+      "neighborhood": "PARKLAND",
+      "status": "pending",
+      "reason": "No unique parcel match yet",
+      "parcel_id": "",
+      "listing_url": ""
+    },
+    "953DIXIEHWY": {
+      "address": "953 DIXIE HWY",
+      "owner": "Landbank Authority",
+      "neighborhood": "CALIFORNIA",
+      "status": "needs_review",
+      "reason": "Exact parcel page returns not found",
+      "parcel_id": "037A00040000",
+      "listing_url": ""
+    }
+  },
+  "counts": {
+    "pending": 253,
+    "needs_review": 79
+  }
+}
