@@ -1,0 +1,1131 @@
+{
+  "checked_at": "2026-11-09",
+  "source": "OpenStreetMap building outlines used by the map baselayer",
+  "method": "Gray source point outside mapped building outlines; nearby buildings do not exclude an open point",
+  "reviewed_unique_locations": 228,
+  "likely_lot_count": 224,
+  "excluded_inside_outline": 4,
+  "records": {
+    "1019 DIXIE HWY": {
+      "latitude": 38.24128019543805,
+      "longitude": -85.78474719546104,
+      "nearest_outline_m": 4.3
+    },
+    "1022 S 28TH ST": {
+      "latitude": 38.242697794196815,
+      "longitude": -85.79984702499104,
+      "nearest_outline_m": 34.5
+    },
+    "1029 DIXIE HWY": {
+      "latitude": 38.24078953249245,
+      "longitude": -85.78493993045052,
+      "nearest_outline_m": 3.9
+    },
+    "1033 DIXIE HWY": {
+      "latitude": 38.2407104931294,
+      "longitude": -85.78497871086866,
+      "nearest_outline_m": 12.9
+    },
+    "1035 DIXIE HWY": {
+      "latitude": 38.24062911019264,
+      "longitude": -85.78500904510835,
+      "nearest_outline_m": 17.0
+    },
+    "1037 DIXIE HWY": {
+      "latitude": 38.24055105918038,
+      "longitude": -85.78504027672814,
+      "nearest_outline_m": 10.3
+    },
+    "1039 SALEM AVE": {
+      "latitude": 38.24044468791974,
+      "longitude": -85.78489664552984,
+      "nearest_outline_m": 22.0
+    },
+    "1041 DIXIE HWY": {
+      "latitude": 38.24045752851704,
+      "longitude": -85.78521933296953,
+      "nearest_outline_m": 3.7
+    },
+    "1041 SALEM AVE": {
+      "latitude": 38.24039142829528,
+      "longitude": -85.78491938644385,
+      "nearest_outline_m": 20.3
+    },
+    "1043 DIXIE HWY": {
+      "latitude": 38.24037447886778,
+      "longitude": -85.78509938189544,
+      "nearest_outline_m": 13.4
+    },
+    "1045 DIXIE HWY": {
+      "latitude": 38.240341520147446,
+      "longitude": -85.78525960802473,
+      "nearest_outline_m": 17.1
+    },
+    "1047 DIXIE HWY": {
+      "latitude": 38.24028550267422,
+      "longitude": -85.78532734170415,
+      "nearest_outline_m": 24.8
+    },
+    "1049 DIXIE HWY": {
+      "latitude": 38.24022927047146,
+      "longitude": -85.78531793069352,
+      "nearest_outline_m": 30.5
+    },
+    "1113 W HILL ST": {
+      "latitude": 38.22764363214313,
+      "longitude": -85.77455139567014,
+      "nearest_outline_m": 5.7
+    },
+    "1116-18 DIXIE HWY": {
+      "latitude": 38.23934328984257,
+      "longitude": -85.78636289822411,
+      "nearest_outline_m": 9.6
+    },
+    "1117 S 36TH ST": {
+      "latitude": 38.241396028039176,
+      "longitude": -85.8129339049404,
+      "nearest_outline_m": 6.5
+    },
+    "112 N 19TH ST": {
+      "latitude": 38.25998099323824,
+      "longitude": -85.78156030485415,
+      "nearest_outline_m": 4.6
+    },
+    "112 N 25TH ST": {
+      "latitude": 38.26104763258975,
+      "longitude": -85.79134448347604,
+      "nearest_outline_m": 15.7
+    },
+    "1126 DIXIE HWY": {
+      "latitude": 38.23891650949525,
+      "longitude": -85.7865328545901,
+      "nearest_outline_m": 13.4
+    },
+    "1128 DIXIE HWY": {
+      "latitude": 38.23884336099665,
+      "longitude": -85.78656507985704,
+      "nearest_outline_m": 5.0
+    },
+    "113-15 S 22ND ST": {
+      "latitude": 38.259319116831804,
+      "longitude": -85.78616351114795,
+      "nearest_outline_m": 17.4
+    },
+    "1136 S 36TH ST": {
+      "latitude": 38.24124906360531,
+      "longitude": -85.81360199833458,
+      "nearest_outline_m": 11.8
+    },
+    "114 S 20TH ST": {
+      "latitude": 38.25897031742353,
+      "longitude": -85.78339110093388,
+      "nearest_outline_m": 9.4
+    },
+    "115 S 28TH ST": {
+      "latitude": 38.26038890329133,
+      "longitude": -85.79731244427165,
+      "nearest_outline_m": 15.4
+    },
+    "116-18 S 25TH ST": {
+      "latitude": 38.25974240310106,
+      "longitude": -85.79159408235704,
+      "nearest_outline_m": 11.4
+    },
+    "1162 S 15TH ST": {
+      "latitude": 38.23703255877565,
+      "longitude": -85.77868318880327,
+      "nearest_outline_m": 11.8
+    },
+    "119 S 20TH ST": {
+      "latitude": 38.25869588039066,
+      "longitude": -85.78288274947599,
+      "nearest_outline_m": 13.9
+    },
+    "120-22 S 25TH ST": {
+      "latitude": 38.259639217456794,
+      "longitude": -85.79161232053688,
+      "nearest_outline_m": 6.8
+    },
+    "1206 LOUIS COLEMAN JR DR": {
+      "latitude": 38.23863065811068,
+      "longitude": -85.81052682935614,
+      "nearest_outline_m": 15.0
+    },
+    "1209 S 26TH ST": {
+      "latitude": 38.23732831057314,
+      "longitude": -85.79595162504582,
+      "nearest_outline_m": 4.9
+    },
+    "121 N 17TH ST": {
+      "latitude": 38.25985670842787,
+      "longitude": -85.77761888993793,
+      "nearest_outline_m": 3.4
+    },
+    "121 S 20TH ST": {
+      "latitude": 38.25862889929765,
+      "longitude": -85.78289741446459,
+      "nearest_outline_m": 6.3
+    },
+    "127 DR W J HODGE ST": {
+      "latitude": 38.25858477592381,
+      "longitude": -85.78471793890587,
+      "nearest_outline_m": 5.9
+    },
+    "1300 S 23RD ST": {
+      "latitude": 38.23571314008476,
+      "longitude": -85.79295627821779,
+      "nearest_outline_m": 0.2
+    },
+    "1306 LINCOLN AVE": {
+      "latitude": 38.217885795227204,
+      "longitude": -85.77878779169191,
+      "nearest_outline_m": 6.4
+    },
+    "1315 OLIVE ST": {
+      "latitude": 38.23596487725759,
+      "longitude": -85.79876330086124,
+      "nearest_outline_m": 2.7
+    },
+    "1324 OLIVE ST": {
+      "latitude": 38.235666567189874,
+      "longitude": -85.79954135646139,
+      "nearest_outline_m": 8.7
+    },
+    "1327 DIXIE HWY": {
+      "latitude": 38.23428671065355,
+      "longitude": -85.78768361002595,
+      "nearest_outline_m": 5.3
+    },
+    "1327 S 22ND ST": {
+      "latitude": 38.234505365469175,
+      "longitude": -85.79037873256014,
+      "nearest_outline_m": 13.5
+    },
+    "1329 DIXIE HWY": {
+      "latitude": 38.23420718773004,
+      "longitude": -85.78771497464834,
+      "nearest_outline_m": 14.4
+    },
+    "1342 DIXIE HWY": {
+      "latitude": 38.23400754981932,
+      "longitude": -85.78853607512151,
+      "nearest_outline_m": 5.5
+    },
+    "1346 DIXIE HWY": {
+      "latitude": 38.23385762695515,
+      "longitude": -85.7885983904458,
+      "nearest_outline_m": 3.9
+    },
+    "1351-53 S 26TH ST": {
+      "latitude": 38.23453787820494,
+      "longitude": -85.79629229472984,
+      "nearest_outline_m": 4.1
+    },
+    "1352 S 26TH ST": {
+      "latitude": 38.2345640366025,
+      "longitude": -85.79701597697175,
+      "nearest_outline_m": 5.3
+    },
+    "1354 DIXIE HWY": {
+      "latitude": 38.23360836750691,
+      "longitude": -85.78870208616641,
+      "nearest_outline_m": 4.9
+    },
+    "1414R S 07TH ST": {
+      "latitude": 38.2290521238551,
+      "longitude": -85.76829983205513,
+      "nearest_outline_m": 13.2
+    },
+    "1414R S 09TH ST": {
+      "latitude": 38.22928935050858,
+      "longitude": -85.77041128843135,
+      "nearest_outline_m": 13.9
+    },
+    "1415 S 28TH ST": {
+      "latitude": 38.233480804638255,
+      "longitude": -85.80041851383541,
+      "nearest_outline_m": 7.4
+    },
+    "1416R S 07TH ST": {
+      "latitude": 38.22898387701386,
+      "longitude": -85.768326694354,
+      "nearest_outline_m": 5.3
+    },
+    "1423 S 10TH ST": {
+      "latitude": 38.2290961334222,
+      "longitude": -85.77104637317525,
+      "nearest_outline_m": 20.7
+    },
+    "1424 S 09TH ST": {
+      "latitude": 38.22898543216177,
+      "longitude": -85.77011123946268,
+      "nearest_outline_m": 5.6
+    },
+    "1424R S 09TH ST": {
+      "latitude": 38.22902671670936,
+      "longitude": -85.77045955335272,
+      "nearest_outline_m": 3.1
+    },
+    "1432 S 07TH ST": {
+      "latitude": 38.228581898098575,
+      "longitude": -85.76842917516298,
+      "nearest_outline_m": 2.6
+    },
+    "1434 S 07TH ST": {
+      "latitude": 38.22852818279125,
+      "longitude": -85.76845420838595,
+      "nearest_outline_m": 8.8
+    },
+    "1445 S 08TH ST": {
+      "latitude": 38.22829750103927,
+      "longitude": -85.76891335953196,
+      "nearest_outline_m": 5.1
+    },
+    "1462 S 12TH ST": {
+      "latitude": 38.2281709112553,
+      "longitude": -85.7753275606578,
+      "nearest_outline_m": 16.4
+    },
+    "1608 W KENTUCKY ST": {
+      "latitude": 38.24140472406984,
+      "longitude": -85.78067924328289,
+      "nearest_outline_m": 5.5
+    },
+    "1610 W KENTUCKY ST": {
+      "latitude": 38.24141372751664,
+      "longitude": -85.78077152630574,
+      "nearest_outline_m": 13.2
+    },
+    "1634 DUMESNIL ST": {
+      "latitude": 38.23577385452829,
+      "longitude": -85.78276263084986,
+      "nearest_outline_m": 12.5
+    },
+    "1634 NELLIGAN AVE": {
+      "latitude": 38.26381548134203,
+      "longitude": -85.77542678779915,
+      "nearest_outline_m": 28.9
+    },
+    "1636 NELLIGAN AVE": {
+      "latitude": 38.263876866407564,
+      "longitude": -85.7755080116695,
+      "nearest_outline_m": 28.8
+    },
+    "1641 PORTLAND AVE": {
+      "latitude": 38.26386095763118,
+      "longitude": -85.77600504389945,
+      "nearest_outline_m": 36.2
+    },
+    "1642 NELLIGAN AVE": {
+      "latitude": 38.2640690176021,
+      "longitude": -85.77575318886834,
+      "nearest_outline_m": 28.3
+    },
+    "1710 W BRECKINRIDGE ST": {
+      "latitude": 38.24402170580769,
+      "longitude": -85.78229042129625,
+      "nearest_outline_m": 3.8
+    },
+    "1714 PORTLAND AVE": {
+      "latitude": 38.26381097172994,
+      "longitude": -85.77675314066605,
+      "nearest_outline_m": 1.6
+    },
+    "1722 ST LOUIS AVE": {
+      "latitude": 38.23246000308592,
+      "longitude": -85.78660784610389,
+      "nearest_outline_m": 3.8
+    },
+    "1724 W GAULBERT ST": {
+      "latitude": 38.227021209349566,
+      "longitude": -85.78634718738861,
+      "nearest_outline_m": 3.4
+    },
+    "1725 W ST CATHERINE ST": {
+      "latitude": 38.24023882017289,
+      "longitude": -85.78498766476234,
+      "nearest_outline_m": 20.7
+    },
+    "1727 W MARKET ST": {
+      "latitude": 38.258004942258886,
+      "longitude": -85.77939051214169,
+      "nearest_outline_m": 15.0
+    },
+    "1727R W KENTUCKY ST": {
+      "latitude": 38.24241705803907,
+      "longitude": -85.78325486654045,
+      "nearest_outline_m": 20.0
+    },
+    "1729 W MARKET ST": {
+      "latitude": 38.25801114142369,
+      "longitude": -85.77945716510844,
+      "nearest_outline_m": 9.1
+    },
+    "1729R W KENTUCKY ST": {
+      "latitude": 38.242439956552786,
+      "longitude": -85.78335104440787,
+      "nearest_outline_m": 12.7
+    },
+    "1731 GALLAGHER ST": {
+      "latitude": 38.23929922301356,
+      "longitude": -85.78506589753947,
+      "nearest_outline_m": 3.0
+    },
+    "1731 ROWAN ST": {
+      "latitude": 38.26070461961903,
+      "longitude": -85.77900394217444,
+      "nearest_outline_m": 4.1
+    },
+    "1733 GALLAGHER ST": {
+      "latitude": 38.239292648410306,
+      "longitude": -85.78512990910339,
+      "nearest_outline_m": 8.4
+    },
+    "1733R GALLAGHER ST": {
+      "latitude": 38.239505386306135,
+      "longitude": -85.78504015094657,
+      "nearest_outline_m": 14.7
+    },
+    "1735-37 GALLAGHER ST": {
+      "latitude": 38.239241404580156,
+      "longitude": -85.78537166899241,
+      "nearest_outline_m": 7.9
+    },
+    "1737R WILSON AVE": {
+      "latitude": 38.23429582775033,
+      "longitude": -85.78482761240735,
+      "nearest_outline_m": 23.4
+    },
+    "1743 HALE AVE": {
+      "latitude": 38.238390107330694,
+      "longitude": -85.78560154649864,
+      "nearest_outline_m": 4.6
+    },
+    "1752 ST LOUIS AVE": {
+      "latitude": 38.232533740011114,
+      "longitude": -85.78797363340304,
+      "nearest_outline_m": 24.3
+    },
+    "1753R ST LOUIS AVE": {
+      "latitude": 38.233361269504925,
+      "longitude": -85.78764678942274,
+      "nearest_outline_m": 4.9
+    },
+    "1765 WILSON AVE": {
+      "latitude": 38.23425342529329,
+      "longitude": -85.78562982621284,
+      "nearest_outline_m": 4.7
+    },
+    "1811 LYTLE ST": {
+      "latitude": 38.263927921881155,
+      "longitude": -85.77857757506366,
+      "nearest_outline_m": 10.2
+    },
+    "1812 PIRTLE ST": {
+      "latitude": 38.25826917123437,
+      "longitude": -85.78056912489001,
+      "nearest_outline_m": 63.7
+    },
+    "1819.5 OWEN ST": {
+      "latitude": 38.262763132722846,
+      "longitude": -85.78015217480822,
+      "nearest_outline_m": 1.7
+    },
+    "1821-23 W MARKET ST": {
+      "latitude": 38.258320118155865,
+      "longitude": -85.78101116688269,
+      "nearest_outline_m": 27.8
+    },
+    "1828 CONGRESS ST": {
+      "latitude": 38.25710096196203,
+      "longitude": -85.7814274344598,
+      "nearest_outline_m": 14.4
+    },
+    "1830 CONGRESS ST": {
+      "latitude": 38.25711170145017,
+      "longitude": -85.78151139309355,
+      "nearest_outline_m": 15.2
+    },
+    "1841 LYTLE ST": {
+      "latitude": 38.26463375949171,
+      "longitude": -85.77953136980884,
+      "nearest_outline_m": 3.5
+    },
+    "1900 BANK ST": {
+      "latitude": 38.26413085310888,
+      "longitude": -85.78067216087621,
+      "nearest_outline_m": 4.4
+    },
+    "1908 PORTLAND AVE": {
+      "latitude": 38.265904521236195,
+      "longitude": -85.77955278266762,
+      "nearest_outline_m": 3.7
+    },
+    "1916 PORTLAND AVE": {
+      "latitude": 38.26605774731687,
+      "longitude": -85.77976078143132,
+      "nearest_outline_m": 11.0
+    },
+    "1918 PORTLAND AVE": {
+      "latitude": 38.26610648980535,
+      "longitude": -85.77982308685588,
+      "nearest_outline_m": 3.3
+    },
+    "1921 PIRTLE ST": {
+      "latitude": 38.25896101943801,
+      "longitude": -85.7825335161381,
+      "nearest_outline_m": 1.0
+    },
+    "2001 ST LOUIS AVE": {
+      "latitude": 38.23370317869391,
+      "longitude": -85.78976467774204,
+      "nearest_outline_m": 5.4
+    },
+    "2008 W MUHAMMAD ALI BLVD": {
+      "latitude": 38.25404255444722,
+      "longitude": -85.78527911703796,
+      "nearest_outline_m": 14.1
+    },
+    "2009 LYTLE ST": {
+      "latitude": 38.26655686193094,
+      "longitude": -85.78133643645145,
+      "nearest_outline_m": 12.0
+    },
+    "201 N 26TH ST": {
+      "latitude": 38.26220833836166,
+      "longitude": -85.79311283256924,
+      "nearest_outline_m": 7.6
+    },
+    "2010 W CHESTNUT ST": {
+      "latitude": 38.25181845577684,
+      "longitude": -85.78575712459674,
+      "nearest_outline_m": 5.9
+    },
+    "2010 W MUHAMMAD ALI BLVD": {
+      "latitude": 38.25405236285103,
+      "longitude": -85.78536657515214,
+      "nearest_outline_m": 10.9
+    },
+    "2012 W CHESTNUT ST": {
+      "latitude": 38.25182739873052,
+      "longitude": -85.78584379558998,
+      "nearest_outline_m": 3.1
+    },
+    "2012 W MUHAMMAD ALI BLVD": {
+      "latitude": 38.25406135488015,
+      "longitude": -85.7854542380649,
+      "nearest_outline_m": 10.8
+    },
+    "2014 W MUHAMMAD ALI BLVD": {
+      "latitude": 38.254069738617865,
+      "longitude": -85.78553306771649,
+      "nearest_outline_m": 10.9
+    },
+    "2018 STANDARD AVE": {
+      "latitude": 38.23120854339084,
+      "longitude": -85.79153216889043,
+      "nearest_outline_m": 9.6
+    },
+    "2022 STANDARD AVE": {
+      "latitude": 38.23126082800641,
+      "longitude": -85.79173834344368,
+      "nearest_outline_m": 28.0
+    },
+    "2100 GRIFFITHS AVE": {
+      "latitude": 38.26358426979052,
+      "longitude": -85.78363950450066,
+      "nearest_outline_m": 5.8
+    },
+    "2103 ST LOUIS AVE": {
+      "latitude": 38.23394615525608,
+      "longitude": -85.79103952672678,
+      "nearest_outline_m": 3.2
+    },
+    "2114 ANDERSON ST": {
+      "latitude": 38.2480772693224,
+      "longitude": -85.78761719023143,
+      "nearest_outline_m": 24.8
+    },
+    "2116 PIRTLE ST": {
+      "latitude": 38.25902833260988,
+      "longitude": -85.78575888977959,
+      "nearest_outline_m": 14.4
+    },
+    "2117 W MUHAMMAD ALI BLVD": {
+      "latitude": 38.254624695288875,
+      "longitude": -85.78646985197729,
+      "nearest_outline_m": 5.7
+    },
+    "2121 W MUHAMMAD ALI BLVD": {
+      "latitude": 38.254721328099386,
+      "longitude": -85.78655874751516,
+      "nearest_outline_m": 8.1
+    },
+    "2122 COLUMBIA ST": {
+      "latitude": 38.26165331158541,
+      "longitude": -85.78491519604687,
+      "nearest_outline_m": 5.2
+    },
+    "2126 STANDARD AVE": {
+      "latitude": 38.23159884329555,
+      "longitude": -85.79310169415854,
+      "nearest_outline_m": 4.7
+    },
+    "2128 COLUMBIA ST": {
+      "latitude": 38.261673151385956,
+      "longitude": -85.78518395237559,
+      "nearest_outline_m": 3.6
+    },
+    "213 DR W J HODGE ST": {
+      "latitude": 38.25778920804863,
+      "longitude": -85.78478600767177,
+      "nearest_outline_m": 18.7
+    },
+    "2141 COLUMBIA ST": {
+      "latitude": 38.26202324131543,
+      "longitude": -85.78558291293783,
+      "nearest_outline_m": 6.0
+    },
+    "215 N 26TH ST": {
+      "latitude": 38.26260604906354,
+      "longitude": -85.79305467052282,
+      "nearest_outline_m": 3.8
+    },
+    "217 DR W J HODGE ST": {
+      "latitude": 38.25770759374313,
+      "longitude": -85.78480209862951,
+      "nearest_outline_m": 19.8
+    },
+    "2208 ANDERSON ST": {
+      "latitude": 38.24848448317409,
+      "longitude": -85.78899774382178,
+      "nearest_outline_m": 23.6
+    },
+    "2209 MAPLE ST": {
+      "latitude": 38.24751586046915,
+      "longitude": -85.78906273774436,
+      "nearest_outline_m": 13.4
+    },
+    "221 S 19TH ST": {
+      "latitude": 38.25700679259506,
+      "longitude": -85.78162714210184,
+      "nearest_outline_m": 6.6
+    },
+    "2210 W MAIN ST": {
+      "latitude": 38.25961647412292,
+      "longitude": -85.78703490050745,
+      "nearest_outline_m": 5.3
+    },
+    "2211 MAPLE ST": {
+      "latitude": 38.247525180913584,
+      "longitude": -85.78914584241792,
+      "nearest_outline_m": 20.0
+    },
+    "2219 CONGRESS ST": {
+      "latitude": 38.258091343290985,
+      "longitude": -85.78754384295745,
+      "nearest_outline_m": 4.3
+    },
+    "2219 GARFIELD AVE": {
+      "latitude": 38.264172970491934,
+      "longitude": -85.7861481645975,
+      "nearest_outline_m": 11.1
+    },
+    "2334 ACKERMAN CT": {
+      "latitude": 38.26080756342966,
+      "longitude": -85.78929859234333,
+      "nearest_outline_m": 3.9
+    },
+    "2403R GRIFFITHS AVE": {
+      "latitude": 38.265899973894165,
+      "longitude": -85.78788725105946,
+      "nearest_outline_m": 16.8
+    },
+    "2408 LYTLE ST": {
+      "latitude": 38.26912414178832,
+      "longitude": -85.78827819056472,
+      "nearest_outline_m": 22.3
+    },
+    "2409-11 EDDY ST": {
+      "latitude": 38.255834802180104,
+      "longitude": -85.79196865938462,
+      "nearest_outline_m": 23.4
+    },
+    "2410 LYTLE ST": {
+      "latitude": 38.269150182709524,
+      "longitude": -85.78835235545002,
+      "nearest_outline_m": 28.1
+    },
+    "2412 LYTLE ST": {
+      "latitude": 38.269175705055716,
+      "longitude": -85.78842288208475,
+      "nearest_outline_m": 29.1
+    },
+    "2413-15 EDDY ST": {
+      "latitude": 38.2558492675582,
+      "longitude": -85.7921052642792,
+      "nearest_outline_m": 15.7
+    },
+    "2435 CLEVELAND AVE": {
+      "latitude": 38.266597474132936,
+      "longitude": -85.78899866748034,
+      "nearest_outline_m": 7.5
+    },
+    "2503 BANK ST": {
+      "latitude": 38.26865485583508,
+      "longitude": -85.7882326457893,
+      "nearest_outline_m": 4.7
+    },
+    "2508 GREEN ALY": {
+      "latitude": 38.25689600957434,
+      "longitude": -85.79229660234779,
+      "nearest_outline_m": 11.5
+    },
+    "2508-10 GARFIELD AVE": {
+      "latitude": 38.265510766585045,
+      "longitude": -85.79069488315801,
+      "nearest_outline_m": 14.9
+    },
+    "2510 OWEN ST": {
+      "latitude": 38.26368088332588,
+      "longitude": -85.79131710584099,
+      "nearest_outline_m": 6.0
+    },
+    "2522 ST. CECILIA ST": {
+      "latitude": 38.264271246915676,
+      "longitude": -85.7930350982923,
+      "nearest_outline_m": 3.8
+    },
+    "2524 WILSON AVE": {
+      "latitude": 38.234100134226466,
+      "longitude": -85.79595052098027,
+      "nearest_outline_m": 10.5
+    },
+    "2526 WILSON AVE": {
+      "latitude": 38.234106561917415,
+      "longitude": -85.79624703188139,
+      "nearest_outline_m": 23.1
+    },
+    "2527 W MUHAMMAD ALI BLVD": {
+      "latitude": 38.255563073154306,
+      "longitude": -85.79387179972758,
+      "nearest_outline_m": 7.5
+    },
+    "2534 CROP ST": {
+      "latitude": 38.26120995263112,
+      "longitude": -85.79279899796082,
+      "nearest_outline_m": 6.1
+    },
+    "2609 W KENTUCKY ST": {
+      "latitude": 38.24371095914693,
+      "longitude": -85.79601280631297,
+      "nearest_outline_m": 14.3
+    },
+    "2610 HALE AVE": {
+      "latitude": 38.238787779997274,
+      "longitude": -85.79669824616595,
+      "nearest_outline_m": 9.1
+    },
+    "2622 W MUHAMMAD ALI BLVD": {
+      "latitude": 38.2551299914507,
+      "longitude": -85.79538049619447,
+      "nearest_outline_m": 4.2
+    },
+    "2630 GREENWOOD AVE": {
+      "latitude": 38.241718885409654,
+      "longitude": -85.79728337819692,
+      "nearest_outline_m": 14.7
+    },
+    "2634 GREENWOOD AVE": {
+      "latitude": 38.24173021049558,
+      "longitude": -85.79739066557086,
+      "nearest_outline_m": 5.6
+    },
+    "2635 GARLAND AVE": {
+      "latitude": 38.24514470739833,
+      "longitude": -85.79692405916657,
+      "nearest_outline_m": 6.1
+    },
+    "2708 W MARKET ST": {
+      "latitude": 38.25941821502798,
+      "longitude": -85.79530951052892,
+      "nearest_outline_m": 2.5
+    },
+    "2709 EDDY ST": {
+      "latitude": 38.256103871815924,
+      "longitude": -85.79598572404949,
+      "nearest_outline_m": 16.2
+    },
+    "2709 LYTLE ST": {
+      "latitude": 38.27136355251604,
+      "longitude": -85.79297980121748,
+      "nearest_outline_m": 11.7
+    },
+    "2712 SLEVIN ST": {
+      "latitude": 38.265871603433894,
+      "longitude": -85.7951087577574,
+      "nearest_outline_m": 13.7
+    },
+    "2725 HOWARD ST": {
+      "latitude": 38.24628412858624,
+      "longitude": -85.79825610295998,
+      "nearest_outline_m": 6.8
+    },
+    "2814 W KENTUCKY ST": {
+      "latitude": 38.24329311783629,
+      "longitude": -85.80017569351762,
+      "nearest_outline_m": 9.5
+    },
+    "2815 W MADISON ST": {
+      "latitude": 38.25483316495832,
+      "longitude": -85.79814097539862,
+      "nearest_outline_m": 4.7
+    },
+    "2819 VIRGINIA AVE": {
+      "latitude": 38.23857801491614,
+      "longitude": -85.80118318971648,
+      "nearest_outline_m": 15.0
+    },
+    "2827 GREENWOOD AVE": {
+      "latitude": 38.24268121093445,
+      "longitude": -85.80082564808859,
+      "nearest_outline_m": 4.1
+    },
+    "2932 PORTLAND AVE": {
+      "latitude": 38.27271428241996,
+      "longitude": -85.79613859810033,
+      "nearest_outline_m": 24.8
+    },
+    "300 N 17TH ST": {
+      "latitude": 38.26179922065798,
+      "longitude": -85.77782333367814,
+      "nearest_outline_m": 9.3
+    },
+    "3014 GREENWOOD AVE": {
+      "latitude": 38.242292466100494,
+      "longitude": -85.80370518918046,
+      "nearest_outline_m": 5.9
+    },
+    "309 N 22ND ST": {
+      "latitude": 38.26350315728842,
+      "longitude": -85.79298809651635,
+      "nearest_outline_m": 11.0
+    },
+    "309 S 20TH ST": {
+      "latitude": 38.2564014410744,
+      "longitude": -85.78411112931241,
+      "nearest_outline_m": 8.3
+    },
+    "3102-04 W JEFFERSON ST": {
+      "latitude": 38.25922285893488,
+      "longitude": -85.80335373959115,
+      "nearest_outline_m": 26.5
+    },
+    "3103 PORTLAND AVE": {
+      "latitude": 38.27411879295192,
+      "longitude": -85.79771195916287,
+      "nearest_outline_m": 2.0
+    },
+    "3111 W JEFFERSON ST": {
+      "latitude": 38.259773231282225,
+      "longitude": -85.80325085972332,
+      "nearest_outline_m": 6.7
+    },
+    "3113 WOODLAND AVE": {
+      "latitude": 38.23498252221821,
+      "longitude": -85.80685039843222,
+      "nearest_outline_m": 2.3
+    },
+    "3115 WOODLAND AVE": {
+      "latitude": 38.23497844136147,
+      "longitude": -85.80697262020827,
+      "nearest_outline_m": 12.8
+    },
+    "3117 WOODLAND AVE": {
+      "latitude": 38.23491291523581,
+      "longitude": -85.80718760814032,
+      "nearest_outline_m": 26.2
+    },
+    "3119 HALE AVE": {
+      "latitude": 38.2403470142218,
+      "longitude": -85.80606489247701,
+      "nearest_outline_m": 7.0
+    },
+    "3119 WOODLAND AVE": {
+      "latitude": 38.23485611550192,
+      "longitude": -85.80742858428657,
+      "nearest_outline_m": 30.0
+    },
+    "3123 VERMONT AVE": {
+      "latitude": 38.25542272964401,
+      "longitude": -85.80340724963582,
+      "nearest_outline_m": 15.7
+    },
+    "3125 VERMONT AVE": {
+      "latitude": 38.255433987853465,
+      "longitude": -85.80350754742487,
+      "nearest_outline_m": 7.0
+    },
+    "315 S 20TH ST": {
+      "latitude": 38.256206218275054,
+      "longitude": -85.78414349387614,
+      "nearest_outline_m": 4.4
+    },
+    "3200 RUDD AVE": {
+      "latitude": 38.276180409934305,
+      "longitude": -85.79943502186912,
+      "nearest_outline_m": 2.3
+    },
+    "3209 DUMESNIL ST": {
+      "latitude": 38.23779231596752,
+      "longitude": -85.80785858572084,
+      "nearest_outline_m": 6.5
+    },
+    "320R N 23RD ST": {
+      "latitude": 38.26375255770402,
+      "longitude": -85.78785053479011,
+      "nearest_outline_m": 15.7
+    },
+    "3218 KIRBY AVE": {
+      "latitude": 38.235798160463794,
+      "longitude": -85.80842012905565,
+      "nearest_outline_m": 12.1
+    },
+    "3225 GREENWOOD AVE": {
+      "latitude": 38.243338620781024,
+      "longitude": -85.80741634551593,
+      "nearest_outline_m": 8.6
+    },
+    "3235R OLEANDA AVE": {
+      "latitude": 38.20489383857922,
+      "longitude": -85.7851097359867,
+      "nearest_outline_m": 33.8
+    },
+    "3415 GRAND AVE": {
+      "latitude": 38.242220607426994,
+      "longitude": -85.81043651532504,
+      "nearest_outline_m": 8.2
+    },
+    "3518 VIRGINIA AVE": {
+      "latitude": 38.238825857215204,
+      "longitude": -85.81278330383607,
+      "nearest_outline_m": 6.8
+    },
+    "3705 GREENWOOD AVE": {
+      "latitude": 38.2440231650722,
+      "longitude": -85.81519931517497,
+      "nearest_outline_m": 6.9
+    },
+    "3709 GREENWOOD AVE": {
+      "latitude": 38.24403897063034,
+      "longitude": -85.81537014681491,
+      "nearest_outline_m": 7.2
+    },
+    "3714 GRAND AVE": {
+      "latitude": 38.24188173822753,
+      "longitude": -85.81596212219108,
+      "nearest_outline_m": 9.9
+    },
+    "3831 GRAND AVE": {
+      "latitude": 38.243139535868515,
+      "longitude": -85.81807845513998,
+      "nearest_outline_m": 4.9
+    },
+    "3834 RIVER PARK DR": {
+      "latitude": 38.25507980165542,
+      "longitude": -85.81566685995314,
+      "nearest_outline_m": 4.7
+    },
+    "410 N 35TH ST": {
+      "latitude": 38.26695221665714,
+      "longitude": -85.80820863258872,
+      "nearest_outline_m": 11.0
+    },
+    "412R N 38TH ST": {
+      "latitude": 38.27005284316165,
+      "longitude": -85.81160105660238,
+      "nearest_outline_m": 24.7
+    },
+    "420 S 27TH ST": {
+      "latitude": 38.255880044832566,
+      "longitude": -85.79566119493873,
+      "nearest_outline_m": 18.6
+    },
+    "431 S 20TH ST": {
+      "latitude": 38.25497036735979,
+      "longitude": -85.7842585885322,
+      "nearest_outline_m": 34.7
+    },
+    "433 S 20TH ST": {
+      "latitude": 38.25484840064217,
+      "longitude": -85.78427973484169,
+      "nearest_outline_m": 21.0
+    },
+    "4507 GRAND AVE": {
+      "latitude": 38.24419586072056,
+      "longitude": -85.82830600829304,
+      "nearest_outline_m": 3.4
+    },
+    "506 N 17TH ST": {
+      "latitude": 38.262562324303325,
+      "longitude": -85.77765551978882,
+      "nearest_outline_m": 13.3
+    },
+    "508 N 17TH ST": {
+      "latitude": 38.262621526150184,
+      "longitude": -85.77758279313757,
+      "nearest_outline_m": 4.8
+    },
+    "508 S 26TH ST": {
+      "latitude": 38.25479974119234,
+      "longitude": -85.79443813133129,
+      "nearest_outline_m": 15.9
+    },
+    "509 S 27TH ST": {
+      "latitude": 38.254906323881755,
+      "longitude": -85.79546051557656,
+      "nearest_outline_m": 5.1
+    },
+    "510 S 18TH ST": {
+      "latitude": 38.25323973426411,
+      "longitude": -85.78096550968642,
+      "nearest_outline_m": 6.3
+    },
+    "511 N 18TH ST": {
+      "latitude": 38.2632937836283,
+      "longitude": -85.77837653087396,
+      "nearest_outline_m": 16.0
+    },
+    "515 S 26TH ST": {
+      "latitude": 38.25451113615972,
+      "longitude": -85.79409232633245,
+      "nearest_outline_m": 27.6
+    },
+    "516-18 N 31ST ST": {
+      "latitude": 38.27299931645763,
+      "longitude": -85.79878524136254,
+      "nearest_outline_m": 10.0
+    },
+    "519 N 31ST ST": {
+      "latitude": 38.27277090933721,
+      "longitude": -85.79820044742303,
+      "nearest_outline_m": 10.9
+    },
+    "525 N 31ST ST": {
+      "latitude": 38.27298381382847,
+      "longitude": -85.79807549873087,
+      "nearest_outline_m": 4.5
+    },
+    "534 S 26TH ST": {
+      "latitude": 38.253792531868875,
+      "longitude": -85.79453635259611,
+      "nearest_outline_m": 13.3
+    },
+    "542 S 34TH ST": {
+      "latitude": 38.254930575017376,
+      "longitude": -85.80762254479329,
+      "nearest_outline_m": 4.6
+    },
+    "613 N 32ND ST": {
+      "latitude": 38.274773010532044,
+      "longitude": -85.79888974805124,
+      "nearest_outline_m": 3.5
+    },
+    "616 N 27TH ST": {
+      "latitude": 38.272527253737444,
+      "longitude": -85.79177541101237,
+      "nearest_outline_m": 15.7
+    },
+    "621 S 28TH ST": {
+      "latitude": 38.252402783105325,
+      "longitude": -85.79744924146665,
+      "nearest_outline_m": 3.7
+    },
+    "625 S 28th ST": {
+      "latitude": 38.25227978782107,
+      "longitude": -85.7975625766096,
+      "nearest_outline_m": 2.4
+    },
+    "634 S 18TH ST": {
+      "latitude": 38.25007059127403,
+      "longitude": -85.78162606915612,
+      "nearest_outline_m": 18.8
+    },
+    "644 GRUNDER AVE": {
+      "latitude": 38.25050748269943,
+      "longitude": -85.7890293899834,
+      "nearest_outline_m": 8.5
+    },
+    "644 H CT": {
+      "latitude": 38.25064470579361,
+      "longitude": -85.790331939471,
+      "nearest_outline_m": 10.2
+    },
+    "646 GRUNDER AVE": {
+      "latitude": 38.25038480384378,
+      "longitude": -85.78904848758128,
+      "nearest_outline_m": 12.9
+    },
+    "648 H CT": {
+      "latitude": 38.2505698156755,
+      "longitude": -85.79034543566162,
+      "nearest_outline_m": 15.0
+    },
+    "650 H CT": {
+      "latitude": 38.250470160180576,
+      "longitude": -85.79036282090901,
+      "nearest_outline_m": 21.1
+    },
+    "652 H CT": {
+      "latitude": 38.2503729251675,
+      "longitude": -85.79036691428706,
+      "nearest_outline_m": 15.7
+    },
+    "671 CURRY CT": {
+      "latitude": 38.251489917240946,
+      "longitude": -85.81740266741993,
+      "nearest_outline_m": 9.8
+    },
+    "738R DR W J HODGE ST": {
+      "latitude": 38.24770485830971,
+      "longitude": -85.78745712987381,
+      "nearest_outline_m": 24.8
+    },
+    "739 S 17TH ST": {
+      "latitude": 38.246974735835444,
+      "longitude": -85.77985724630815,
+      "nearest_outline_m": 23.9
+    },
+    "808 S 35TH ST": {
+      "latitude": 38.2475919643209,
+      "longitude": -85.81025572574572,
+      "nearest_outline_m": 3.0
+    },
+    "817 S 23RD ST": {
+      "latitude": 38.24661202940589,
+      "longitude": -85.78977377266231,
+      "nearest_outline_m": 4.0
+    },
+    "830 LOUIS COLEMAN JR DR": {
+      "latitude": 38.24663895401516,
+      "longitude": -85.80908733877001,
+      "nearest_outline_m": 8.3
+    },
+    "841 S 26TH ST": {
+      "latitude": 38.2461584300026,
+      "longitude": -85.79495100726258,
+      "nearest_outline_m": 4.1
+    },
+    "911-13 S 17TH ST": {
+      "latitude": 38.24365894259294,
+      "longitude": -85.78160450316415,
+      "nearest_outline_m": 13.4
+    },
+    "953 DIXIE HWY": {
+      "latitude": 38.24247887336554,
+      "longitude": -85.78439617892292,
+      "nearest_outline_m": 11.5
+    }
+  },
+  "included_near_outline": 58
+}
