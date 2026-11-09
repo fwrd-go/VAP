@@ -1,32 +1,62 @@
 {
-  "checked_at": "2026-11-08T23:17:15.519547+00:00",
-  "source": "Louisville ePropertyPlus individual listing pages",
+  "checked_at": "2026-11-09T00:07:49.033918+00:00",
+  "source": "Louisville ePropertyPlus published inventory, exact property details and canonical listing pages",
+  "inventory_endpoint": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedProperties",
+  "source_rows": 332,
+  "unique_source_addresses": 331,
+  "duplicate_source_rows": 1,
+  "published_total": 552,
+  "published_status_counts": {
+    "Available": 502,
+    "Community Impact Solicitation": 3,
+    "Demo For Deed": 32,
+    "Save Our Structures": 12,
+    "REVERT": 3
+  },
+  "counts": {
+    "verified": 102,
+    "pending": 228,
+    "program": 1
+  },
+  "row_counts": {
+    "verified": 102,
+    "pending": 229,
+    "program": 1
+  },
   "records": {
     "1014S32NDST": {
       "address": "1014 S 32ND ST",
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "045C00460000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=045C00460000",
+      "portal_status": "Available",
+      "property_id": 1069420,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=045C00460000",
+      "link_verified": true
     },
     "1014RS32NDST": {
       "address": "1014R S 32ND ST",
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "045C00450000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=045C00450000",
+      "portal_status": "Available",
+      "property_id": 1069419,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=045C00450000",
+      "link_verified": true
     },
     "1019DIXIEHWY": {
       "address": "1019 DIXIE HWY",
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "037D01750000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "1022S28THST": {
@@ -34,7 +64,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -43,7 +73,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -52,7 +82,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -61,7 +91,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -70,7 +100,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -79,7 +109,7 @@
       "owner": "Metro Government",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -88,7 +118,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -97,7 +127,7 @@
       "owner": "Metro Government",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -106,7 +136,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -115,7 +145,7 @@
       "owner": "Metro Government",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -124,7 +154,7 @@
       "owner": "Metro Government",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -133,7 +163,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -142,7 +172,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -151,7 +181,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -160,25 +190,29 @@
       "owner": "Landbank Authority",
       "neighborhood": "CHICKASAW",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "045E00230000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "1119S38THST": {
       "address": "1119 S 38TH ST",
       "owner": "Landbank Authority",
       "neighborhood": "CHICKASAW",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "045D00140000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=045D00140000",
+      "portal_status": "Available",
+      "property_id": 1069423,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=045D00140000",
+      "link_verified": true
     },
     "112N19THST": {
       "address": "112 N 19TH ST",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -187,7 +221,7 @@
       "owner": "Metro Government",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -196,8 +230,8 @@
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "038F01940000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "1128DIXIEHWY": {
@@ -205,8 +239,8 @@
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "038F00550056",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "11315S22NDST": {
@@ -214,7 +248,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -223,8 +257,8 @@
       "owner": "Landbank Authority",
       "neighborhood": "CHICKASAW",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "045D00240000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "114S20THST": {
@@ -232,7 +266,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -241,8 +275,8 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "003J01660000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "11618S25THST": {
@@ -250,7 +284,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -259,8 +293,8 @@
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "037G00350000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "119S20THST": {
@@ -268,7 +302,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -277,7 +311,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -286,8 +320,8 @@
       "owner": "Metro Government",
       "neighborhood": "CHICKASAW",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "045H00500000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "1209S26THST": {
@@ -295,7 +329,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -304,7 +338,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -313,7 +347,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -321,44 +355,60 @@
       "address": "1215 S 17TH ST",
       "owner": "Metro Government",
       "neighborhood": "PARK HILL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "039B01890000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=039B01890000",
+      "portal_status": "Available",
+      "property_id": 1069344,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=039B01890000",
+      "link_verified": true
     },
     "1232S15THST": {
       "address": "1232 S 15TH ST",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "039B00880000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=039B00880000",
+      "portal_status": "Available",
+      "property_id": 1069342,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=039B00880000",
+      "link_verified": true
     },
     "1239DIXIEHWY": {
       "address": "1239 DIXIE HWY",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "039A00040000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=039A00040000",
+      "portal_status": "Available",
+      "property_id": 1069337,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=039A00040000",
+      "link_verified": true
     },
     "1240S17THST": {
       "address": "1240 S 17TH ST",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
       "status": "verified",
-      "reason": "Official ePropertyPlus individual listing displays matching address, parcel and Property Status Available; checked 2026-11-08",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "039A00780000",
-      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=039A00780000"
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=039A00780000",
+      "portal_status": "Available",
+      "property_id": 1069339,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=039A00780000",
+      "link_verified": true
     },
     "127DRWJHODGEST": {
       "address": "127 DR W J HODGE ST",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -367,7 +417,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -375,18 +425,22 @@
       "address": "1304 S 17TH ST",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "039D00460000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=039D00460000",
+      "portal_status": "Available",
+      "property_id": 1069357,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=039D00460000",
+      "link_verified": true
     },
     "1306LINCOLNAVE": {
       "address": "1306 LINCOLN AVE",
       "owner": "Landbank Authority",
       "neighborhood": "TAYLOR BERRY",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "063A00880000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "1315OLIVEST": {
@@ -394,35 +448,43 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "048E00940000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "1317DIXIEHWY": {
       "address": "1317 DIXIE HWY",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "039C00890000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=039C00890000",
+      "portal_status": "Available",
+      "property_id": 1069351,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=039C00890000",
+      "link_verified": true
     },
     "1319DIXIEHWY": {
       "address": "1319 DIXIE HWY",
       "owner": "Metro Government",
       "neighborhood": "PARK HILL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "039C00880000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=039C00880000",
+      "portal_status": "Available",
+      "property_id": 1069350,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=039C00880000",
+      "link_verified": true
     },
     "1324OLIVEST": {
       "address": "1324 OLIVE ST",
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "048E00670000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "1327DIXIEHWY": {
@@ -430,7 +492,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -439,8 +501,8 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "041A00630000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "1329DIXIEHWY": {
@@ -448,7 +510,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -456,18 +518,22 @@
       "address": "1336 S 22ND ST",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "041A00340000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=041A00340000",
+      "portal_status": "Available",
+      "property_id": 1069374,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=041A00340000",
+      "link_verified": true
     },
     "1342DIXIEHWY": {
       "address": "1342 DIXIE HWY",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "041A01050000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "1346DIXIEHWY": {
@@ -475,8 +541,8 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "041A01030000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "135153S26THST": {
@@ -484,7 +550,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -493,7 +559,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -502,25 +568,29 @@
       "owner": "Metro Government",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "041A00990000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "1364S20THST": {
       "address": "1364 S 20TH ST",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "041B00980000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=041B00980000",
+      "portal_status": "Available",
+      "property_id": 1069382,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=041B00980000",
+      "link_verified": true
     },
     "1414RS07THST": {
       "address": "1414R S 07TH ST",
       "owner": "Metro Government",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -529,7 +599,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -538,8 +608,8 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "048K00350000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "1416RS07THST": {
@@ -547,7 +617,7 @@
       "owner": "Metro Government",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -556,8 +626,8 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "042B00840000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "1424S09THST": {
@@ -565,7 +635,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -574,7 +644,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -583,7 +653,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -592,7 +662,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -600,26 +670,34 @@
       "address": "1442 S 11TH ST",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "042B00360000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=042B00360000",
+      "portal_status": "Available",
+      "property_id": 1069394,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=042B00360000",
+      "link_verified": true
     },
     "1444S11THST": {
       "address": "1444 S 11TH ST",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "042B00350000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=042B00350000",
+      "portal_status": "Available",
+      "property_id": 1069393,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=042B00350000",
+      "link_verified": true
     },
     "1445S08THST": {
       "address": "1445 S 08TH ST",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -627,80 +705,108 @@
       "address": "1452 S 11TH ST",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "042B00320000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=042B00320000",
+      "portal_status": "Available",
+      "property_id": 1069392,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=042B00320000",
+      "link_verified": true
     },
     "1454S11THST": {
       "address": "1454 S 11TH ST",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "042B00310000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=042B00310000",
+      "portal_status": "Available",
+      "property_id": 1069391,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=042B00310000",
+      "link_verified": true
     },
     "1460S12THST": {
       "address": "1460 S 12TH ST",
       "owner": "Metro Government",
       "neighborhood": "PARK HILL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "042A00650000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=042A00650000",
+      "portal_status": "Available",
+      "property_id": 1069389,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=042A00650000",
+      "link_verified": true
     },
     "1462S12THST": {
       "address": "1462 S 12TH ST",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "042A00640000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "1469S12THST": {
       "address": "1469 S 12TH ST",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "042B00120000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=042B00120000",
+      "portal_status": "Available",
+      "property_id": 1069390,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=042B00120000",
+      "link_verified": true
     },
     "1515WJEFFERSONST": {
       "address": "1515 W JEFFERSON ST",
       "owner": "Urban Renewal",
       "neighborhood": "RUSSELL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "014A00620000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=014A00620000",
+      "portal_status": "Available",
+      "property_id": 1069549,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=014A00620000",
+      "link_verified": true
     },
     "1516CONGRESSST": {
       "address": "1516 CONGRESS ST",
       "owner": "Urban Renewal",
       "neighborhood": "RUSSELL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "014A00660000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=014A00660000",
+      "portal_status": "Available",
+      "property_id": 1069550,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=014A00660000",
+      "link_verified": true
     },
     "1522HALEAVE": {
       "address": "1522 HALE AVE",
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "037G01350000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=037G01350000",
+      "portal_status": "Available",
+      "property_id": 1069315,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=037G01350000",
+      "link_verified": true
     },
     "1608WKENTUCKYST": {
       "address": "1608 W KENTUCKY ST",
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -709,7 +815,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -717,18 +823,22 @@
       "address": "1631 WILSON AVE",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "039D00670000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=039D00670000",
+      "portal_status": "Available",
+      "property_id": 1069359,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=039D00670000",
+      "link_verified": true
     },
     "1634DUMESNILST": {
       "address": "1634 DUMESNIL ST",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "039B00200000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "1634NELLIGANAVE": {
@@ -736,8 +846,8 @@
       "owner": "Metro Government",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "015K00290000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "1636NELLIGANAVE": {
@@ -745,8 +855,8 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "015K00280000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "1641PORTLANDAVE": {
@@ -754,7 +864,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -763,7 +873,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -772,8 +882,8 @@
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "037A01020000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "1714PORTLANDAVE": {
@@ -781,7 +891,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -789,17 +899,21 @@
       "address": "1722 BOLLING AVE",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "039F01040000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=039F01040000",
+      "portal_status": "Available",
+      "property_id": 1069361,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=039F01040000",
+      "link_verified": true
     },
     "1722STLOUISAVE": {
       "address": "1722 ST LOUIS AVE",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -808,7 +922,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "ALGONQUIN",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -817,7 +931,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -826,8 +940,8 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "014A00950000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "1727RWKENTUCKYST": {
@@ -835,26 +949,30 @@
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "037A01840000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "1729WKENTUCKYST": {
       "address": "1729 W KENTUCKY ST",
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "037A00170000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=037A00170000",
+      "portal_status": "Available",
+      "property_id": 1069277,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=037A00170000",
+      "link_verified": true
     },
     "1729WMARKETST": {
       "address": "1729 W MARKET ST",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "014A00940000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "1729RWKENTUCKYST": {
@@ -862,7 +980,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -871,7 +989,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -880,7 +998,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -889,7 +1007,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -898,7 +1016,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -907,7 +1025,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -916,26 +1034,30 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "039C01510000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "1740STLOUISAVE": {
       "address": "1740 ST LOUIS AVE",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
-      "status": "pending",
-      "reason": "No unique parcel match yet",
-      "parcel_id": "",
-      "listing_url": ""
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
+      "parcel_id": "039C00120000",
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=039C00120000",
+      "portal_status": "Available",
+      "property_id": 1069346,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=039C00120000",
+      "link_verified": true
     },
     "1743HALEAVE": {
       "address": "1743 HALE AVE",
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "037F02030000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "1752STLOUISAVE": {
@@ -943,7 +1065,7 @@
       "owner": "Metro Government",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -952,7 +1074,7 @@
       "owner": "Metro Government",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -961,7 +1083,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -969,17 +1091,21 @@
       "address": "1799 BOLLING AVE",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "041F01600000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=041F01600000",
+      "portal_status": "Available",
+      "property_id": 1056914,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=041F01600000",
+      "link_verified": true
     },
     "1811LYTLEST": {
       "address": "1811 LYTLE ST",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -988,8 +1114,8 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "003M02510000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "18195OWENST": {
@@ -997,7 +1123,7 @@
       "owner": "Metro Government",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1006,7 +1132,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1015,7 +1141,7 @@
       "owner": "Urban Renewal",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1024,7 +1150,7 @@
       "owner": "Urban Renewal",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1033,7 +1159,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1042,7 +1168,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1050,17 +1176,21 @@
       "address": "1846 BAIRD ST",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "015G00800000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=015G00800000",
+      "portal_status": "Available",
+      "property_id": 1056756,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=015G00800000",
+      "link_verified": true
     },
     "1900BANKST": {
       "address": "1900 BANK ST",
       "owner": "Metro Government",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1069,8 +1199,8 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "004E01790000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "1916PORTLANDAVE": {
@@ -1078,7 +1208,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1086,17 +1216,21 @@
       "address": "1918 OWEN ST",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "003G02040000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=003G02040000",
+      "portal_status": "Available",
+      "property_id": 1069124,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=003G02040000",
+      "link_verified": true
     },
     "1918PORTLANDAVE": {
       "address": "1918 PORTLAND AVE",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1105,8 +1239,8 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "003M00760000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "2001STLOUISAVE": {
@@ -1114,7 +1248,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1122,27 +1256,35 @@
       "address": "2005 ST LOUIS AVE",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
-      "status": "pending",
-      "reason": "No unique parcel match yet",
-      "parcel_id": "",
-      "listing_url": ""
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
+      "parcel_id": "041A00570000",
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=041A00570000",
+      "portal_status": "Available",
+      "property_id": 1069376,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=041A00570000",
+      "link_verified": true
     },
     "2005WMARKETST": {
       "address": "2005 W MARKET ST",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "003M00150000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=003M00150000",
+      "portal_status": "Available",
+      "property_id": 1069148,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=003M00150000",
+      "link_verified": true
     },
     "2008WMUHAMMADALIBLVD": {
       "address": "2008 W MUHAMMAD ALI BLVD",
       "owner": "Urban Renewal",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "002K00450000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "2009LYTLEST": {
@@ -1150,7 +1292,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1159,8 +1301,8 @@
       "owner": "Metro Government",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "003E00010000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "2010WCHESTNUTST": {
@@ -1168,7 +1310,7 @@
       "owner": "Urban Renewal",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1177,8 +1319,8 @@
       "owner": "Urban Renewal",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "002K00440000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "2012WCHESTNUTST": {
@@ -1186,7 +1328,7 @@
       "owner": "Urban Renewal",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1195,8 +1337,8 @@
       "owner": "Urban Renewal",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "002K00430000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "2014WMUHAMMADALIBLVD": {
@@ -1204,8 +1346,8 @@
       "owner": "Urban Renewal",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "002K00420000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "2018STANDARDAVE": {
@@ -1213,7 +1355,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1221,17 +1363,21 @@
       "address": "2018 WILSON AVE",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
-      "status": "pending",
-      "reason": "No unique parcel match yet",
-      "parcel_id": "",
-      "listing_url": ""
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
+      "parcel_id": "041A00660000",
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=041A00660000",
+      "portal_status": "Available",
+      "property_id": 1070080,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=041A00660000",
+      "link_verified": true
     },
     "2022STANDARDAVE": {
       "address": "2022 STANDARD AVE",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1240,7 +1386,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1248,17 +1394,21 @@
       "address": "2102 WILSON AVE",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "041A00470000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=041A00470000",
+      "portal_status": "Available",
+      "property_id": 1069375,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=041A00470000",
+      "link_verified": true
     },
     "2103STLOUISAVE": {
       "address": "2103 ST LOUIS AVE",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1266,18 +1416,22 @@
       "address": "2107 EDDY ST",
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "002K01400000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=002K01400000",
+      "portal_status": "Available",
+      "property_id": 1069084,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=002K01400000",
+      "link_verified": true
     },
     "2114ANDERSONST": {
       "address": "2114 ANDERSON ST",
       "owner": "Metro Government",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "036B00950000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "2116PIRTLEST": {
@@ -1285,7 +1439,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1294,7 +1448,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1303,7 +1457,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1312,7 +1466,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1320,17 +1474,21 @@
       "address": "2125 GREEN ALY",
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "002E00270000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=002E00270000",
+      "portal_status": "Available",
+      "property_id": 1069029,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=002E00270000",
+      "link_verified": true
     },
     "2126STANDARDAVE": {
       "address": "2126 STANDARD AVE",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1339,8 +1497,8 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "003G02900000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "213DRWJHODGEST": {
@@ -1348,7 +1506,7 @@
       "owner": "Metro Government",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1356,18 +1514,22 @@
       "address": "214 N 18TH ST",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "015F00330000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=015F00330000",
+      "portal_status": "Available",
+      "property_id": 1069233,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=015F00330000",
+      "link_verified": true
     },
     "2141COLUMBIAST": {
       "address": "2141 COLUMBIA ST",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "003G02760000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "215N26THST": {
@@ -1375,7 +1537,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1384,7 +1546,7 @@
       "owner": "Metro Government",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1393,8 +1555,8 @@
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "036B00380000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "2209MAPLEST": {
@@ -1402,25 +1564,29 @@
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "036B00220000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "2209OWENST": {
       "address": "2209 OWEN ST",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "003F02140000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=003F02140000",
+      "portal_status": "Available",
+      "property_id": 1069114,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=003F02140000",
+      "link_verified": true
     },
     "221S19THST": {
       "address": "221 S 19TH ST",
       "owner": "Urban Renewal",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1429,8 +1595,8 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "003L00500000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "2211MAPLEST": {
@@ -1438,43 +1604,55 @@
       "owner": "Metro Government",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "036B00210000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "2211OWENST": {
       "address": "2211 OWEN ST",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "003F02150000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=003F02150000",
+      "portal_status": "Available",
+      "property_id": 1069115,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=003F02150000",
+      "link_verified": true
     },
     "2215OWENST": {
       "address": "2215 OWEN ST",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "003F02160000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=003F02160000",
+      "portal_status": "Available",
+      "property_id": 1069116,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=003F02160000",
+      "link_verified": true
     },
     "2217WORMSBYAVE": {
       "address": "2217 W ORMSBY AVE",
       "owner": "Metro Government",
       "neighborhood": "PARK HILL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "038L00540000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=038L00540000",
+      "portal_status": "Available",
+      "property_id": 1069331,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=038L00540000",
+      "link_verified": true
     },
     "2219CONGRESSST": {
       "address": "2219 CONGRESS ST",
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1483,7 +1661,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1491,107 +1669,151 @@
       "address": "2224 OWEN ST",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "003F01480000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=003F01480000",
+      "portal_status": "Available",
+      "property_id": 1069106,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=003F01480000",
+      "link_verified": true
     },
     "2224STXAVIERST": {
       "address": "2224 ST XAVIER ST",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
-      "status": "pending",
-      "reason": "No unique parcel match yet",
-      "parcel_id": "",
-      "listing_url": ""
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
+      "parcel_id": "004J00250000",
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=004J00250000",
+      "portal_status": "Available",
+      "property_id": 1056700,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=004J00250000",
+      "link_verified": true
     },
     "2225GARLANDAVE": {
       "address": "2225 GARLAND AVE",
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "036G00010000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=036G00010000",
+      "portal_status": "Available",
+      "property_id": 1069274,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=036G00010000",
+      "link_verified": true
     },
     "2225PIRTLEST": {
       "address": "2225 PIRTLE ST",
       "owner": "Metro Government",
       "neighborhood": "PORTLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "003L00430000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=003L00430000",
+      "portal_status": "Available",
+      "property_id": 1069143,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=003L00430000",
+      "link_verified": true
     },
     "2226OWENST": {
       "address": "2226 OWEN ST",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "003F01470000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=003F01470000",
+      "portal_status": "Available",
+      "property_id": 1069105,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=003F01470000",
+      "link_verified": true
     },
     "2227PIRTLEST": {
       "address": "2227 PIRTLE ST",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "003L01520000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=003L01520000",
+      "portal_status": "Available",
+      "property_id": 1069146,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=003L01520000",
+      "link_verified": true
     },
     "2229PIRTLEST": {
       "address": "2229 PIRTLE ST",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "003L01530000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=003L01530000",
+      "portal_status": "Available",
+      "property_id": 1069147,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=003L01530000",
+      "link_verified": true
     },
     "2240GREENWOODAVE": {
       "address": "2240 GREENWOOD AVE",
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "038E00890000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=038E00890000",
+      "portal_status": "Available",
+      "property_id": 1069319,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=038E00890000",
+      "link_verified": true
     },
     "2300HOWARDST": {
       "address": "2300 HOWARD ST",
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "036F01560000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=036F01560000",
+      "portal_status": "Available",
+      "property_id": 1069272,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=036F01560000",
+      "link_verified": true
     },
     "2302HOWARDST": {
       "address": "2302 HOWARD ST",
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "036F01550000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=036F01550000",
+      "portal_status": "Available",
+      "property_id": 1069271,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=036F01550000",
+      "link_verified": true
     },
     "2309HOWARDST": {
       "address": "2309 HOWARD ST",
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "036F02200000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=036F02200000",
+      "portal_status": "Available",
+      "property_id": 1069273,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=036F02200000",
+      "link_verified": true
     },
     "2334ACKERMANCT": {
       "address": "2334 ACKERMAN CT",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1599,35 +1821,43 @@
       "address": "2344 EDDY ST",
       "owner": "Metro Government",
       "neighborhood": "RUSSELL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "002J00830000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=002J00830000",
+      "portal_status": "Available",
+      "property_id": 1069077,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=002J00830000",
+      "link_verified": true
     },
     "2403RGRIFFITHSAVE": {
       "address": "2403R GRIFFITHS AVE",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "004H00710000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "2406MONTGOMERYST": {
       "address": "2406 MONTGOMERY ST",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "005F00890000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=005F00890000",
+      "portal_status": "Available",
+      "property_id": 1056706,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=005F00890000",
+      "link_verified": true
     },
     "2408LYTLEST": {
       "address": "2408 LYTLE ST",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1636,7 +1866,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1645,7 +1875,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1654,7 +1884,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1663,7 +1893,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1671,36 +1901,48 @@
       "address": "2418R MONTGOMERY ST",
       "owner": "Metro Government",
       "neighborhood": "PORTLAND",
-      "status": "pending",
-      "reason": "No unique parcel match yet",
-      "parcel_id": "",
-      "listing_url": ""
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
+      "parcel_id": "005F00840000",
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=005F00840000",
+      "portal_status": "Available",
+      "property_id": 1069181,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=005F00840000",
+      "link_verified": true
     },
     "2420GARFIELDAVE": {
       "address": "2420 GARFIELD AVE",
       "owner": "Metro Government",
       "neighborhood": "PORTLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "003B00830000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=003B00830000",
+      "portal_status": "Available",
+      "property_id": 1069090,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=003B00830000",
+      "link_verified": true
     },
     "2421OWENST": {
       "address": "2421 OWEN ST",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "003E01500000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=003E01500000",
+      "portal_status": "Available",
+      "property_id": 1069101,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=003E01500000",
+      "link_verified": true
     },
     "2435CLEVELANDAVE": {
       "address": "2435 CLEVELAND AVE",
       "owner": "Metro Government",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "004H00780000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "2503BANKST": {
@@ -1708,7 +1950,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1717,7 +1959,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1726,7 +1968,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1735,34 +1977,42 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "003E01030000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "2514GREENALY": {
       "address": "2514 GREEN ALY",
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "002C00110000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=002C00110000",
+      "portal_status": "Available",
+      "property_id": 1069013,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=002C00110000",
+      "link_verified": true
     },
     "2520WOODLANDAVE": {
       "address": "2520 WOODLAND AVE",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "040J00210000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=040J00210000",
+      "portal_status": "Available",
+      "property_id": 1069366,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=040J00210000",
+      "link_verified": true
     },
     "2522STCECILIAST": {
       "address": "2522 ST. CECILIA ST",
       "owner": "Metro Government",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1770,36 +2020,44 @@
       "address": "2522 WOODLAND AVE",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "040J00200000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=040J00200000",
+      "portal_status": "Available",
+      "property_id": 1069365,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=040J00200000",
+      "link_verified": true
     },
     "2524WILSONAVE": {
       "address": "2524 WILSON AVE",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "040J00340000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "2525WMUHAMMADALIBLVD": {
       "address": "2525 W MUHAMMAD ALI BLVD",
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "002H01150000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=002H01150000",
+      "portal_status": "Available",
+      "property_id": 1069069,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=002H01150000",
+      "link_verified": true
     },
     "2526WILSONAVE": {
       "address": "2526 WILSON AVE",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "040J00330000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "2527WMUHAMMADALIBLVD": {
@@ -1807,8 +2065,8 @@
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "002H01140000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "2534CROPST": {
@@ -1816,7 +2074,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1824,35 +2082,47 @@
       "address": "2539 CROP ST",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "003K00990000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=003K00990000",
+      "portal_status": "Available",
+      "property_id": 1069140,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=003K00990000",
+      "link_verified": true
     },
     "2540ROWANST": {
       "address": "2540 ROWAN ST",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "003K00980000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=003K00980000",
+      "portal_status": "Available",
+      "property_id": 1056677,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=003K00980000",
+      "link_verified": true
     },
     "2606WKENTUCKYST": {
       "address": "2606 W KENTUCKY ST",
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
-      "status": "pending",
-      "reason": "No unique parcel match yet",
-      "parcel_id": "",
-      "listing_url": ""
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
+      "parcel_id": "046D01030000",
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=046D01030000",
+      "portal_status": "Available",
+      "property_id": 1070146,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=046D01030000",
+      "link_verified": true
     },
     "2609WKENTUCKYST": {
       "address": "2609 W KENTUCKY ST",
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1861,7 +2131,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1869,36 +2139,48 @@
       "address": "2612 W JEFFERSON ST",
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "002B00590000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=002B00590000",
+      "portal_status": "Available",
+      "property_id": 1069006,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=002B00590000",
+      "link_verified": true
     },
     "2622CONGRESSST": {
       "address": "2622 CONGRESS ST",
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "002B00860000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=002B00860000",
+      "portal_status": "Available",
+      "property_id": 1069007,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=002B00860000",
+      "link_verified": true
     },
     "2622WKENTUCKYST": {
       "address": "2622 W KENTUCKY ST",
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "046D00960000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=046D00960000",
+      "portal_status": "Available",
+      "property_id": 1069439,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=046D00960000",
+      "link_verified": true
     },
     "2622WMUHAMMADALIBLVD": {
       "address": "2622 W MUHAMMAD ALI BLVD",
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "002H00190000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "2630GREENWOODAVE": {
@@ -1906,7 +2188,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1915,7 +2197,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1924,7 +2206,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1932,18 +2214,22 @@
       "address": "2703 W MARKET ST",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "003J01900000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=003J01900000",
+      "portal_status": "Available",
+      "property_id": 1069137,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=003J01900000",
+      "link_verified": true
     },
     "2708WMARKETST": {
       "address": "2708 W MARKET ST",
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "002B01320000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "2709EDDYST": {
@@ -1951,8 +2237,8 @@
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "002G01700000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "2709LYTLEST": {
@@ -1960,7 +2246,7 @@
       "owner": "Metro Government",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -1969,52 +2255,64 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "003D01070000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "2713CONGRESSST": {
       "address": "2713 CONGRESS ST",
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "002B01090000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=002B01090000",
+      "portal_status": "Available",
+      "property_id": 1069009,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=002B01090000",
+      "link_verified": true
     },
     "2724HOWARDST": {
       "address": "2724 HOWARD ST",
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "046B00850000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=046B00850000",
+      "portal_status": "Available",
+      "property_id": 1069434,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=046B00850000",
+      "link_verified": true
     },
     "2725HOWARDST": {
       "address": "2725 HOWARD ST",
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "046B00810000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "2731CONGRESSST": {
       "address": "2731 CONGRESS ST",
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "002B01300000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=002B01300000",
+      "portal_status": "Available",
+      "property_id": 1069011,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=002B01300000",
+      "link_verified": true
     },
     "2814WKENTUCKYST": {
       "address": "2814 W KENTUCKY ST",
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2022,18 +2320,22 @@
       "address": "2815 EDDY ST",
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "002G01330000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=002G01330000",
+      "portal_status": "Available",
+      "property_id": 1069047,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=002G01330000",
+      "link_verified": true
     },
     "2815WMADISONST": {
       "address": "2815 W MADISON ST",
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "002G00240000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "2819VIRGINIAAVE": {
@@ -2041,7 +2343,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2050,7 +2352,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2059,7 +2361,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2067,35 +2369,47 @@
       "address": "2903 CLEVELAND AVE",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "004F00270000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=004F00270000",
+      "portal_status": "Available",
+      "property_id": 1069161,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=004F00270000",
+      "link_verified": true
     },
     "2905CLEVELANDAVE": {
       "address": "2905 CLEVELAND AVE",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "004F00260000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=004F00260000",
+      "portal_status": "Available",
+      "property_id": 1069160,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=004F00260000",
+      "link_verified": true
     },
     "2918PORTLANDAVE": {
       "address": "2918 PORTLAND AVE",
       "owner": "Metro Government",
       "neighborhood": "PORTLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "004A00610000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=004A00610000",
+      "portal_status": "Available",
+      "property_id": 1069155,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=004A00610000",
+      "link_verified": true
     },
     "2932PORTLANDAVE": {
       "address": "2932 PORTLAND AVE",
       "owner": "Metro Government",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2103,17 +2417,21 @@
       "address": "2933 VIRGINIA AVE",
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "046J00490000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=046J00490000",
+      "portal_status": "Available",
+      "property_id": 1056984,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=046J00490000",
+      "link_verified": true
     },
     "300N17THST": {
       "address": "300 N 17TH ST",
       "owner": "Metro Government",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2122,35 +2440,43 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "046E00900000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "3029RDUMESNILST": {
       "address": "3029R DUMESNIL ST",
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "046H00190000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=046H00190000",
+      "portal_status": "Available",
+      "property_id": 1069448,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=046H00190000",
+      "link_verified": true
     },
     "3040GREENWOODAVE": {
       "address": "3040 GREENWOOD AVE",
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "046E00780000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=046E00780000",
+      "portal_status": "Available",
+      "property_id": 1069444,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=046E00780000",
+      "link_verified": true
     },
     "309N22NDST": {
       "address": "309 N 22ND ST",
       "owner": "Metro Government",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "003G00790000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "309S20THST": {
@@ -2158,7 +2484,7 @@
       "owner": "Urban Renewal",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2167,7 +2493,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2176,8 +2502,8 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "012G01110000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "3111WJEFFERSONST": {
@@ -2185,7 +2511,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2194,7 +2520,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2203,7 +2529,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2212,7 +2538,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2221,7 +2547,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2230,7 +2556,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2239,7 +2565,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2248,7 +2574,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2256,17 +2582,21 @@
       "address": "315 DR W J HODGE ST",
       "owner": "Urban Renewal",
       "neighborhood": "RUSSELL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "002E00480000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=002E00480000",
+      "portal_status": "Available",
+      "property_id": 1069030,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=002E00480000",
+      "link_verified": true
     },
     "315S20THST": {
       "address": "315 S 20TH ST",
       "owner": "Urban Renewal",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2275,7 +2605,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2284,7 +2614,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2293,7 +2623,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2302,7 +2632,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2310,35 +2640,43 @@
       "address": "3221R GRAND AVE",
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "045F00950000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=045F00950000",
+      "portal_status": "Available",
+      "property_id": 1069428,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=045F00950000",
+      "link_verified": true
     },
     "3225GREENWOODAVE": {
       "address": "3225 GREENWOOD AVE",
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "045C00140000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "3229LARKWOODAVE": {
       "address": "3229 LARKWOOD AVE",
       "owner": "Landbank Authority",
       "neighborhood": "SHAWNEE",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "008H00210000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=008H00210000",
+      "portal_status": "Available",
+      "property_id": 1069198,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=008H00210000",
+      "link_verified": true
     },
     "3235ROLEANDAAVE": {
       "address": "3235R OLEANDA AVE",
       "owner": "Metro Government",
       "neighborhood": "TAYLOR BERRY",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2346,26 +2684,34 @@
       "address": "3315R W KENTUCKY ST",
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "045C00580000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=045C00580000",
+      "portal_status": "Available",
+      "property_id": 1069422,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=045C00580000",
+      "link_verified": true
     },
     "3323WKENTUCKYST": {
       "address": "3323 W KENTUCKY ST",
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "045C00530000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=045C00530000",
+      "portal_status": "Available",
+      "property_id": 1069421,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=045C00530000",
+      "link_verified": true
     },
     "3415GRANDAVE": {
       "address": "3415 GRAND AVE",
       "owner": "Landbank Authority",
       "neighborhood": "CHICKASAW",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2373,35 +2719,43 @@
       "address": "3421 GRAND AVE",
       "owner": "Metro Government",
       "neighborhood": "CHICKASAW",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "045E00720000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=045E00720000",
+      "portal_status": "Available",
+      "property_id": 1069427,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=045E00720000",
+      "link_verified": true
     },
     "3518VIRGINIAAVE": {
       "address": "3518 VIRGINIA AVE",
       "owner": "Landbank Authority",
       "neighborhood": "CHICKASAW",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "045H00370000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "3626WBROADWAY": {
       "address": "3626 W BROADWAY",
       "owner": "Landbank Authority",
       "neighborhood": "CHICKASAW",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "043F00100000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=043F00100000",
+      "portal_status": "Available",
+      "property_id": 1069398,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=043F00100000",
+      "link_verified": true
     },
     "3705GREENWOODAVE": {
       "address": "3705 GREENWOOD AVE",
       "owner": "Landbank Authority",
       "neighborhood": "CHICKASAW",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2410,7 +2764,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "CHICKASAW",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2419,8 +2773,8 @@
       "owner": "Landbank Authority",
       "neighborhood": "CHICKASAW",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "045D00280000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "3831GRANDAVE": {
@@ -2428,8 +2782,8 @@
       "owner": "Landbank Authority",
       "neighborhood": "CHICKASAW",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "044F01470000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "3834RIVERPARKDR": {
@@ -2437,7 +2791,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "SHAWNEE",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2445,35 +2799,47 @@
       "address": "3904 GREENWOOD AVE",
       "owner": "Landbank Authority",
       "neighborhood": "CHICKASAW",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "044F01620000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=044F01620000",
+      "portal_status": "Available",
+      "property_id": 1069411,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=044F01620000",
+      "link_verified": true
     },
     "4024LARKWOODAVE": {
       "address": "4024 LARKWOOD AVE",
       "owner": "Landbank Authority",
       "neighborhood": "SHAWNEE",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "007C00110000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=007C00110000",
+      "portal_status": "Available",
+      "property_id": 1069186,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=007C00110000",
+      "link_verified": true
     },
     "408N21STST": {
       "address": "408 N 21ST ST",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "004J00620000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=004J00620000",
+      "portal_status": "Available",
+      "property_id": 1069177,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=004J00620000",
+      "link_verified": true
     },
     "410N35THST": {
       "address": "410 N 35TH ST",
       "owner": "Landbank Authority",
       "neighborhood": "SHAWNEE",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2482,7 +2848,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "SHAWNEE",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2490,35 +2856,47 @@
       "address": "4134R GREENWOOD AVE",
       "owner": "Landbank Authority",
       "neighborhood": "CHICKASAW",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "044E00970000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=044E00970000",
+      "portal_status": "Available",
+      "property_id": 1069407,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=044E00970000",
+      "link_verified": true
     },
     "4136RGREENWOODAVE": {
       "address": "4136R GREENWOOD AVE",
       "owner": "Landbank Authority",
       "neighborhood": "CHICKASAW",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "044E01010000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=044E01010000",
+      "portal_status": "Available",
+      "property_id": 1069408,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=044E01010000",
+      "link_verified": true
     },
     "417N22NDST": {
       "address": "417 N 22ND ST",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "004J00660000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=004J00660000",
+      "portal_status": "Available",
+      "property_id": 1069178,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=004J00660000",
+      "link_verified": true
     },
     "420S27THST": {
       "address": "420 S 27TH ST",
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2527,7 +2905,7 @@
       "owner": "Urban Renewal",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2536,7 +2914,7 @@
       "owner": "Urban Renewal",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2544,35 +2922,47 @@
       "address": "438 S 18TH ST",
       "owner": "Urban Renewal",
       "neighborhood": "RUSSELL",
-      "status": "pending",
-      "reason": "No unique parcel match yet",
-      "parcel_id": "",
-      "listing_url": ""
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
+      "parcel_id": "002L01830000",
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=002L01830000",
+      "portal_status": "Available",
+      "property_id": 1070468,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=002L01830000",
+      "link_verified": true
     },
     "440S18THST": {
       "address": "440 S 18TH ST",
       "owner": "Urban Renewal",
       "neighborhood": "RUSSELL",
-      "status": "pending",
-      "reason": "No unique parcel match yet",
-      "parcel_id": "",
-      "listing_url": ""
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
+      "parcel_id": "002L01820000",
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=002L01820000",
+      "portal_status": "Available",
+      "property_id": 1071305,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=002L01820000",
+      "link_verified": true
     },
     "441RN42NDST": {
       "address": "441R N 42ND ST",
       "owner": "Landbank Authority",
       "neighborhood": "SHAWNEE",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "011E00290000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=011E00290000",
+      "portal_status": "Available",
+      "property_id": 1069211,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=011E00290000",
+      "link_verified": true
     },
     "4507GRANDAVE": {
       "address": "4507 GRAND AVE",
       "owner": "Landbank Authority",
       "neighborhood": "CHICKASAW",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2581,7 +2971,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2590,7 +2980,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2599,7 +2989,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2608,8 +2998,8 @@
       "owner": "Metro Government",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "002H00170000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "510S18THST": {
@@ -2617,8 +3007,8 @@
       "owner": "Urban Renewal",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "002L00720000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "511N18THST": {
@@ -2626,8 +3016,8 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "015G01440000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "511S27THST": {
@@ -2635,8 +3025,8 @@
       "owner": "Metro Government",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "002H01800000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "515S26THST": {
@@ -2644,7 +3034,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2653,7 +3043,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2662,7 +3052,7 @@
       "owner": "Metro Government",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2671,7 +3061,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2679,27 +3069,35 @@
       "address": "533 S 18TH ST",
       "owner": "Urban Renewal",
       "neighborhood": "RUSSELL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "013A00170000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=013A00170000",
+      "portal_status": "Available",
+      "property_id": 1069219,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=013A00170000",
+      "link_verified": true
     },
     "534LOCHERALY": {
       "address": "534 LOCHER ALY",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "004B01450000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=004B01450000",
+      "portal_status": "Available",
+      "property_id": 1069156,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=004B01450000",
+      "link_verified": true
     },
     "534S26THST": {
       "address": "534 S 26TH ST",
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "001B01070000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "542S34THST": {
@@ -2707,7 +3105,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "SHAWNEE",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2715,35 +3113,47 @@
       "address": "608 S 31ST ST",
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "007K00290000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=007K00290000",
+      "portal_status": "Available",
+      "property_id": 1069195,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=007K00290000",
+      "link_verified": true
     },
     "609S19THST": {
       "address": "609 S 19TH ST",
       "owner": "Urban Renewal",
       "neighborhood": "RUSSELL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "001E00750000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=001E00750000",
+      "portal_status": "Available",
+      "property_id": 1069540,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=001E00750000",
+      "link_verified": true
     },
     "610S31STST": {
       "address": "610 S 31ST ST",
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "007K00280000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=007K00280000",
+      "portal_status": "Available",
+      "property_id": 1069194,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=007K00280000",
+      "link_verified": true
     },
     "613N32NDST": {
       "address": "613 N 32ND ST",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2751,17 +3161,21 @@
       "address": "613 S 19TH ST",
       "owner": "Urban Renewal",
       "neighborhood": "RUSSELL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "001E01690000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=001E01690000",
+      "portal_status": "Available",
+      "property_id": 1069541,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=001E01690000",
+      "link_verified": true
     },
     "616N27THST": {
       "address": "616 N 27TH ST",
       "owner": "Landbank Authority",
       "neighborhood": "PORTLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2769,45 +3183,57 @@
       "address": "618 DR W J HODGE ST",
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "001D00200000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=001D00200000",
+      "portal_status": "Available",
+      "property_id": 1068949,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=001D00200000",
+      "link_verified": true
     },
     "618S31STST": {
       "address": "618 S 31ST ST",
       "owner": "Metro Government",
       "neighborhood": "RUSSELL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "007K00240000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=007K00240000",
+      "portal_status": "Available",
+      "property_id": 1069193,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=007K00240000",
+      "link_verified": true
     },
     "621S28THST": {
       "address": "621 S 28TH ST",
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "001A00190000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "621S31STST": {
       "address": "621 S 31ST ST",
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "006J01150000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=006J01150000",
+      "portal_status": "Available",
+      "property_id": 1069185,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=006J01150000",
+      "link_verified": true
     },
     "625S28THST": {
       "address": "625 S 28th ST",
       "owner": "Metro Government",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "001A00170000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "634S18THST": {
@@ -2815,7 +3241,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2823,18 +3249,22 @@
       "address": "636 S 18TH ST",
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "program",
+      "reason": "Official published listing has status Community Impact Solicitation; not counted as Available",
       "parcel_id": "001J01030000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=001J01030000",
+      "portal_status": "Community Impact Solicitation",
+      "property_id": 1069002,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=001J01030000",
+      "link_verified": true
     },
     "644GRUNDERAVE": {
       "address": "644 GRUNDER AVE",
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "001H00840000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "644HCT": {
@@ -2842,8 +3272,8 @@
       "owner": "Metro Government",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "001H00350000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "646GRUNDERAVE": {
@@ -2851,8 +3281,8 @@
       "owner": "Metro Government",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "001H00830000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "648HCT": {
@@ -2860,8 +3290,8 @@
       "owner": "Metro Government",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "001H00340000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "650HCT": {
@@ -2869,8 +3299,8 @@
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "001H00330000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "652HCT": {
@@ -2878,8 +3308,8 @@
       "owner": "Landbank Authority",
       "neighborhood": "RUSSELL",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "001H00320000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "671CURRYCT": {
@@ -2887,7 +3317,7 @@
       "owner": "Metro Government",
       "neighborhood": "SHAWNEE",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2895,18 +3325,22 @@
       "address": "734 S 32ND ST",
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
-      "status": "pending",
-      "reason": "Listing page did not confirm exact address and parcel",
+      "status": "verified",
+      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
       "parcel_id": "043H00580000",
-      "listing_url": ""
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=043H00580000",
+      "portal_status": "Available",
+      "property_id": 1069402,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=043H00580000",
+      "link_verified": true
     },
     "738RDRWJHODGEST": {
       "address": "738R DR W J HODGE ST",
       "owner": "Metro Government",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "036B00830000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "739S17THST": {
@@ -2914,7 +3348,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2923,7 +3357,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "CHICKASAW",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2932,8 +3366,8 @@
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "036G00990000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "830LOUISCOLEMANJRDR": {
@@ -2941,8 +3375,8 @@
       "owner": "Landbank Authority",
       "neighborhood": "CHICKASAW",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "043G01450000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "841S26THST": {
@@ -2950,8 +3384,8 @@
       "owner": "Metro Government",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "036F00210000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     },
     "91113S17THST": {
@@ -2959,7 +3393,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2968,7 +3402,7 @@
       "owner": "Landbank Authority",
       "neighborhood": "PARKLAND",
       "status": "pending",
-      "reason": "No unique parcel match yet",
+      "reason": "No exact address match in published inventory; availability unknown",
       "parcel_id": "",
       "listing_url": ""
     },
@@ -2977,14 +3411,9 @@
       "owner": "Landbank Authority",
       "neighborhood": "CALIFORNIA",
       "status": "pending",
-      "reason": "Portal returned not found for constructed parcel URL; listing status unknown",
-      "parcel_id": "037A00040000",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
       "listing_url": ""
     }
-  },
-  "counts": {
-    "pending": 330,
-    "needs_review": 0,
-    "verified": 1
   }
 }

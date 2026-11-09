@@ -1,58 +1,81 @@
 #!/usr/bin/env python3
-"""Conservative audit: green only for an exact available ePropertyPlus listing."""
-import csv, json, re, time, datetime, urllib.parse, urllib.request, html
+"""Verify published Louisville listings; GIS ownership never establishes availability."""
+import csv, json, re, datetime, urllib.parse, urllib.request, html
+from collections import Counter, defaultdict
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
-ROOT=Path(__file__).resolve().parents[1]
-SOURCE=ROOT/'data/metro-landbank-west-master.csv'
-OUT=ROOT/'data/landbank-verification.json'
-GIS='https://gis.lojic.org/maps/rest/services/LojicSolutions/OpenDataDevelopment/MapServer/18/query'
-PORTAL='https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber='
-def norm(s):
- s=str(s or '').upper()
- for a,b in [('STREET','ST'),('AVENUE','AVE'),('ROAD','RD'),('BOULEVARD','BLVD'),('DRIVE','DR'),('ALLEY','ALY'),('LANE','LN'),('PLACE','PL'),('COURT','CT')]:
-  s=re.sub(r'\b'+a+r'\b',b,s)
- return re.sub('[^A-Z0-9]','',s)
-def get(url,params=None):
- if params:url+='?'+urllib.parse.urlencode(params)
- req=urllib.request.Request(url,headers={'User-Agent':'VAP-West-Listing-Audit/1.0 (public data verification)','Accept':'text/html,application/json'})
- with urllib.request.urlopen(req,timeout=25) as response:return response.read().decode('utf-8','replace')
+ROOT = Path(__file__).resolve().parents[1]
+BASE = 'https://public-lky.epropertyplus.com'
+API = BASE + '/landmgmtpub/remote/public/property/'
+def norm(value):
+    value = str(value or '').upper()
+    for a, b in [('SAINT','ST'),('STREET','ST'),('AVENUE','AVE'),('ROAD','RD'),('BOULEVARD','BLVD'),('DRIVE','DR'),('ALLEY','ALY'),('LANE','LN'),('PLACE','PL'),('COURT','CT')]:
+        value = re.sub(r'\b'+a+r'\b', b, value)
+    return re.sub('[^A-Z0-9]', '', value)
+def get(url, params=None):
+    if params: url += '?' + urllib.parse.urlencode(params)
+    request = urllib.request.Request(url, headers={'User-Agent':'VAP-West-Listing-Audit/2.0','Accept':'application/json,text/html'})
+    with urllib.request.urlopen(request, timeout=30) as response:
+        return response.read().decode('utf-8'), response.geturl()
+def published():
+    rows = []
+    for offset in range(0, 100000, 250):
+        raw, _ = get(API+'getPublishedProperties', {'limit':250,'page':offset//250+1,'iDisplayStart':offset,'iDisplayLength':250,'json':json.dumps({'criterias':[]})})
+        page = json.loads(raw)
+        if page.get('success') is not True: raise RuntimeError('Published inventory failed')
+        part = page.get('rows', [])
+        rows.extend(part)
+        if len(rows) >= page['size']: break
+        if not part: raise RuntimeError('Incomplete inventory pagination')
+    if len(rows) != page['size'] or len({r['parcelNumber'] for r in rows}) != len(rows):
+        raise RuntimeError('Incomplete or duplicate inventory; preserving previous audit')
+    return rows
+
+def verify(pair):
+    key, (source, hits) = pair
+    item = {'address':source['address'],'owner':source['owner'],'neighborhood':source['neighborhood'], 'status':'pending','reason':'No exact address match in published inventory; availability unknown','parcel_id':'','listing_url':''}
+    if len(hits) != 1:
+        if hits: item['reason'] = 'Multiple published parcels match this address; manual review required'
+        return key, item
+    row = hits[0]
+    parcel = row['parcelNumber']
+    item.update(parcel_id=parcel, portal_status=row['currentStatus'], property_id=row['id'])
+    try:
+        detail_url = API+'getPublishedPropertyByParcelNumber?'+urllib.parse.urlencode({'parcelNumber':parcel})
+        raw, _ = get(detail_url)
+        detail = json.loads(raw)
+        record = detail.get('returnVal') or {}
+        if detail.get('success') is not True or record.get('parcelNumber') != parcel or norm(record.get('propertyAddress1')) != key or record.get('currentStatus') != row['currentStatus']:
+            raise RuntimeError('Published detail does not confirm address, parcel and status')
+        # The candidate is never exposed until the returned page confirms its identity
+        # and supplies the same exact URL in its canonical Open Graph metadata.
+        candidate = API+'viewSummary?'+urllib.parse.urlencode({'parcelNumber':parcel})
+        page, final_url = get(candidate)
+        metas = dict((name, html.unescape(value)) for name, value in re.findall(r'<meta\s+property="([^"]+)"\s+content="([^"]*)"', page))
+        if final_url != candidate or metas.get('og:url') != candidate or norm(metas.get('og:title','').split(',')[0]) != key:
+            raise RuntimeError('Listing page did not confirm canonical URL and exact address')
+        item.update(listing_url=metas['og:url'], detail_url=detail_url, link_verified=True)
+        if row['currentStatus'] == 'Available':
+            item.update(status='verified', reason='Published inventory and exact property detail confirm Available; canonical listing page verified')
+        else:
+            item.update(status='program', reason='Official published listing has status '+row['currentStatus']+'; not counted as Available')
+    except Exception as exc:
+        item['reason'] = 'Individual verification failed: '+str(exc)[:180]
+    return key, item
+
 def main():
- rows=list(csv.DictReader(SOURCE.open(newline='',encoding='utf-8')))
- result={'checked_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'source':'Louisville ePropertyPlus individual listing pages','records':{},'counts':{}}
- try:
-  by_addr={}
-  for offset in range(0,100000,1000):
-   payload=json.loads(get(GIS,{'where':'1=1','outFields':'PARCELID,PROP_ADDRESS','returnGeometry':'false','resultOffset':offset,'resultRecordCount':1000,'f':'json'}))
-   if payload.get('error'):raise RuntimeError(str(payload['error']))
-   features=payload.get('features',[])
-   for f in features:
-    a=f.get('attributes') or {};k=norm(a.get('PROP_ADDRESS'));pid=str(a.get('PARCELID') or '').strip()
-    if k and pid:by_addr.setdefault(k,set()).add(pid)
-   if len(features)<1000:break
- except Exception as e:
-  print('GIS unavailable:',e);by_addr={}
- for i,row in enumerate(rows):
-  address=row['address'];key=norm(address);parcels=sorted(by_addr.get(key,[]))
-  item={'address':address,'owner':row['owner'],'neighborhood':row['neighborhood'],'status':'pending','reason':'No unique parcel match yet','parcel_id':'','listing_url':''}
-  if len(parcels)>1:item['reason']='Multiple parcel IDs; needs manual resolution'
-  elif len(parcels)==1:
-   pid=parcels[0];item['parcel_id']=pid
-   url=PORTAL+urllib.parse.quote(pid);item['reason']='Individual listing not yet verified'
-   try:
-    page=get(url);plain=html.unescape(re.sub(r'<[^>]*>',' ',page));plain=re.sub(r'\s+',' ',plain)
-    address_ok=key in norm(plain)
-    parcel_ok=pid in re.sub(r'[^A-Z0-9]','',plain.upper())
-    available=bool(re.search(r'Property Status\s*Available\b',plain,re.I))
-    not_found=bool(re.search(r'Property Not Found|Page Not Found|No longer found|404 Not Found',plain,re.I))
-    if address_ok and parcel_ok and available and not not_found:
-     item.update(status='verified',reason='Exact parcel, address and Available status confirmed on listing page',listing_url=url)
-    elif not_found:item.update(status='pending',reason='Constructed parcel URL returned not found; portal listing status unknown')
-    elif address_ok and parcel_ok:item.update(status='pending',reason='Listing found but availability not confirmed')
-    else:item['reason']='Listing page did not confirm exact address and parcel'
-   except Exception as e:item['reason']='Listing lookup unavailable: '+str(e)[:120]
-  result['records'][key]=item
-  result['counts'][item['status']]=result['counts'].get(item['status'],0)+1
-  if i%30==0:print('Processed',i+1,'/',len(rows))
- OUT.write_text(json.dumps(result,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
- print('Final counts',result['counts'])
-if __name__=='__main__':main()
+    sources = list(csv.DictReader((ROOT/'data/metro-landbank-west-master.csv').open(newline='',encoding='utf-8')))
+    rows = published()
+    index = defaultdict(list)
+    for row in rows: index[norm(row['propertyAddress1'])].append(row)
+    unique = {norm(row['address']):row for row in sources}
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        records = dict(pool.map(verify, ((key,(source,index[key])) for key,source in unique.items())))
+    now = datetime.datetime.now(datetime.timezone.utc).isoformat()
+    result = {'checked_at':now,'source':'Louisville ePropertyPlus published inventory, exact property details and canonical listing pages','inventory_endpoint':API+'getPublishedProperties','source_rows':len(sources),'unique_source_addresses':len(unique),'duplicate_source_rows':len(sources)-len(unique),'published_total':len(rows),'published_status_counts':dict(Counter(row['currentStatus'] for row in rows)),'counts':dict(Counter(item['status'] for item in records.values())),'row_counts':dict(Counter(records[norm(row['address'])]['status'] for row in sources)),'records':records}
+    out = ROOT/'data/landbank-verification.json'
+    temp = out.with_suffix('.tmp')
+    temp.write_text(json.dumps(result,indent=2,ensure_ascii=False)+'\n')
+    temp.replace(out)
+    print(json.dumps({k:v for k,v in result.items() if k!='records'},indent=2), flush=True)
+if __name__ == '__main__': main()

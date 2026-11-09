@@ -1,5 +1,11 @@
 name: Audit West End Landbank Listings
 on:
+  schedule:
+    - cron: '37 12 * * *'
+  push:
+    paths:
+      - 'scripts/audit_landbank_listings.py'
+      - 'data/metro-landbank-west-master.csv'
   workflow_dispatch:
 permissions:
   contents: write
