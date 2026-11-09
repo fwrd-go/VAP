@@ -1,27 +1,28 @@
 {
-  "checked_at": "2026-11-09T00:08:22.718511+00:00",
+  "checked_at": "2026-11-09T22:39:11.058457+00:00",
   "source": "Louisville ePropertyPlus published inventory, exact property details and canonical listing pages",
   "inventory_endpoint": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedProperties",
   "source_rows": 332,
   "unique_source_addresses": 331,
   "duplicate_source_rows": 1,
-  "published_total": 552,
+  "published_total": 549,
   "published_status_counts": {
-    "Available": 502,
+    "Available": 496,
     "Community Impact Solicitation": 3,
     "Demo For Deed": 32,
-    "Save Our Structures": 12,
+    "Approved Application": 1,
+    "Save Our Structures": 14,
     "REVERT": 3
   },
   "counts": {
-    "verified": 102,
+    "verified": 101,
     "pending": 228,
-    "program": 1
+    "program": 2
   },
   "row_counts": {
-    "verified": 102,
+    "verified": 101,
     "pending": 229,
-    "program": 1
+    "program": 2
   },
   "records": {
     "1014S32NDST": {
@@ -744,10 +745,14 @@
       "address": "1462 S 12TH ST",
       "owner": "Landbank Authority",
       "neighborhood": "PARK HILL",
-      "status": "pending",
-      "reason": "No exact address match in published inventory; availability unknown",
-      "parcel_id": "",
-      "listing_url": ""
+      "status": "program",
+      "reason": "Official published listing has status Approved Application; not counted as Available",
+      "parcel_id": "042A00640000",
+      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=042A00640000",
+      "portal_status": "Approved Application",
+      "property_id": 1069388,
+      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=042A00640000",
+      "link_verified": true
     },
     "1469S12THST": {
       "address": "1469 S 12TH ST",
@@ -1638,14 +1643,10 @@
       "address": "2217 W ORMSBY AVE",
       "owner": "Metro Government",
       "neighborhood": "PARK HILL",
-      "status": "verified",
-      "reason": "Published inventory and exact property detail confirm Available; canonical listing page verified",
-      "parcel_id": "038L00540000",
-      "listing_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/viewSummary?parcelNumber=038L00540000",
-      "portal_status": "Available",
-      "property_id": 1069331,
-      "detail_url": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedPropertyByParcelNumber?parcelNumber=038L00540000",
-      "link_verified": true
+      "status": "pending",
+      "reason": "No exact address match in published inventory; availability unknown",
+      "parcel_id": "",
+      "listing_url": ""
     },
     "2219CONGRESSST": {
       "address": "2219 CONGRESS ST",
