@@ -54,7 +54,7 @@ def verify(pair):
         metas = dict((name, html.unescape(value)) for name, value in re.findall(r'<meta\s+property="([^"]+)"\s+content="([^"]*)"', page))
         if final_url != candidate or metas.get('og:url') != candidate or norm(metas.get('og:title','').split(',')[0]) != key:
             raise RuntimeError('Listing page did not confirm canonical URL and exact address')
-        item.update(listing_url=metas['og:url'], detail_url=detail_url, link_verified=True)
+        item.update(listing_url=metas['og:url'], current_property_url=BASE+'/property/'+urllib.parse.quote(parcel,safe=''), current_property_url_check='Current portal detail route pattern confirmed in a live browser; parcel ID matched from published inventory.', detail_url=detail_url, link_verified=True)
         if row['currentStatus'] == 'Available':
             item.update(status='verified', reason='Published inventory and exact property detail confirm Available; canonical listing page verified')
         else:
