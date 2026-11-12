@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0d2938">
+<title>VAP 40203 + 40208 — Property Maintenance Map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyo5c2qvL3q2E4=" crossorigin="">
+<style>
+*{box-sizing:border-box}
+:root{color-scheme:dark;--navy:#0d2938;--panel:#14394b;--mint:#c3f4e8;--line:#7895a3;--text:#edf8fb}
+body{margin:0;background:var(--navy);color:var(--text);font:15px system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.top{position:sticky;top:0;z-index:1200;background:#11394c;box-shadow:0 2px 8px #071f2b66}
+header{display:flex;justify-content:space-between;gap:14px;align-items:center;padding:12px 18px;flex-wrap:wrap}
+h1{margin:0;font-size:1.5rem;letter-spacing:.01em}
+header p{margin:3px 0 0;color:#c6dce5;font-size:.92rem}
+nav{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+a{color:#8ce9dc}
+.controls{display:flex;gap:8px;align-items:center;padding:10px 14px 12px;flex-wrap:wrap;border-top:1px solid #ffffff12}
+button,select,input{font:inherit;border:1px solid var(--line);border-radius:8px;padding:9px 11px;background:#f7fbfc;color:#163746}
+button{cursor:pointer}
+button:hover{background:#dff6f1}
+button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid #ffdb81;outline-offset:2px}
+button:disabled{opacity:.55;cursor:wait}
+.layer{display:inline-flex;align-items:center;gap:8px;min-height:42px;padding:7px 11px;border:2px solid #aec3cc;border-radius:10px;background:#f7fbfc;color:#173746;font-weight:650;white-space:nowrap;box-shadow:0 2px 0 #0b2632;cursor:pointer}
+.layer:has(input:checked){background:var(--mint);border-color:#169f8b;box-shadow:inset 0 0 0 1px #169f8b}
+.layer input{width:17px;height:17px;margin:0;accent-color:#169f8b}
+#search{min-width:220px;flex:1}
+.stats{padding:8px 14px;background:#24495b;color:#eaf5f8;font-size:.9rem;line-height:1.45}
+#status{font-weight:650}
+.layout{display:grid;grid-template-columns:minmax(310px,390px) minmax(0,1fr);min-height:68vh}
+#records{height:68vh;overflow:auto;background:#f8fbfc;color:#183341;overscroll-behavior:contain}
+.record{width:100%;display:block;text-align:left;padding:12px 14px;border:0;border-bottom:1px solid #d1dfe5;border-radius:0;background:#fff;color:#183341}
+.record:hover,.record:focus-visible{background:#e3f7f4}
+.record.selected{background:#cbf3e8}
+.record strong{display:block;font-size:.98rem}
+.record small{display:block;color:#526b79;margin-top:4px;line-height:1.4}
+.pill{display:inline-block;margin:6px 5px 0 0;padding:2px 7px;border-radius:99px;background:#e9f1f4;color:#284b5b;font-size:.73rem;font-weight:700}
+#map{height:68vh;min-height:460px;background:#bed0d6}
+.empty{padding:18px;color:#526b79;line-height:1.5}
+.info{padding:9px 14px;background:#1a4052;color:#d5e4e9;font-size:.84rem;line-height:1.5}
+footer{padding:10px 14px;color:#b9ced7;font-size:.8rem;line-height:1.5}
+@media(max-width:760px){
+ header{padding:10px 12px}
+ h1{font-size:1.28rem}
+ nav{gap:10px;font-size:.9rem}
+ .controls{flex-wrap:nowrap;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:thin;padding:9px 10px}
+ .controls>*{flex-shrink:0}
+ #search{min-width:205px;flex:0 0 205px}
+ .layout{display:flex;flex-direction:column}
+ #map{height:48vh;min-height:330px}
+ #records{height:38vh;min-height:220px}
+ .stats{font-size:.84rem}
+}
+</style>
+</head>
+<body>
+<div class="top">
+<header>
+<div><h1>VAP 40203 + 40208</h1><p>Property maintenance · occupancy · inspections · work orders</p></div>
+<nav aria-label="Related maps">
+<a href="./west-end.html">West End map</a>
+<a href="./index.html">Citywide VAP</a>
+<a href="https://public-lky.epropertyplus.com/landmgmtpub/app/base/propertySearch" target="_blank" rel="noopener noreferrer">Official Landbank search</a>
+</nav>
+</header>
+<div class="controls" aria-label="Map filters">
+<label class="layer"><input id="lyr-occupancy" type="checkbox" checked> PM Occupancy</label>
+<label class="layer"><input id="lyr-visits" type="checkbox" checked> Site visits / violations</label>
+<label class="layer"><input id="lyr-open" type="checkbox" checked> Open work orders</label>
+<label class="layer"><input id="lyr-closed" type="checkbox"> Closed WOs · Dec 2022–Nov 2026</label>
+<select id="zip" aria-label="ZIP code">
+<option value="all">Both ZIP codes</option><option value="40203">ZIP 40203</option><option value="40208">ZIP 40208</option>
+</select>
+<select id="occupancy-filter" aria-label="Occupancy status">
+<option value="all">All occupancy statuses</option>
+<option value="occupied">Occupied structure</option>
+<option value="vacant">Vacant structure</option>
+<option value="lot">Vacant / abandoned lot</option>
+<option value="abandoned">Abandoned structure</option>
+<option value="other">Other / unclassified</option>
+</select>
+<input id="search" type="search" placeholder="Search address, case ID, code…" aria-label="Search records">
+<button id="refresh" type="button">Refresh data</button>
+<button id="export" type="button" disabled>Export CSV</button>
+</div>
+</div>
+<div id="summary" class="stats" role="status">Waiting for ZIP boundaries and current property records…</div>
+<div id="status" class="stats" role="status">Loading data…</div>
+<div class="layout">
+<div id="records" aria-label="Property records"><div class="empty">Loading records…</div></div>
+<div id="map" aria-label="40203 and 40208 property maintenance map"></div>
+</div>
+<div class="info">Occupancy reflects a recorded inspection result and does not confirm a property's present condition. A closed work order records a closure; it does not establish that a condition is fixed today. Property availability is shown only through the official Landbank search.</div>
+<footer>Data: Louisville Metro PM Occupancy, PM Site Visit Violations, and open work-order services; closed work-order history is the city's Dec 2022–Nov 2026 snapshot. ZIP boundaries: LOJIC USPS ZIP Code polygons. Source records are shown at their supplied addresses and locations; records without a usable location are excluded from the map.</footer>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script>
+'use strict';
+const ZIP_CODES=['40203','40208'];
+const ENDPOINTS={
+  boundaries:'https://gis.lojic.org/maps/rest/services/LojicSolutions/OpenDataAddresses/MapServer/3/query',
+  occupancy:'https://services1.arcgis.com/79kfd2K6fskCAkyg/arcgis/rest/services/pm_occupancy/FeatureServer/0/query',
+  visits:'https://services1.arcgis.com/79kfd2K6fskCAkyg/arcgis/rest/services/PM_SiteVisit_Violations/FeatureServer/0/query',
+  open:'https://services1.arcgis.com/79kfd2K6fskCAkyg/arcgis/rest/services/pm_open_workorders/FeatureServer/0/query'
+};
+const statusEl=document.getElementById('status'),summaryEl=document.getElementById('summary');
+const zipSelect=document.getElementById('zip'),occupancyFilter=document.getElementById('occupancy-filter'),search=document.getElementById('search');
+const recordsEl=document.getElementById('records'),exportButton=document.getElementById('export'),refreshButton=document.getElementById('refresh');
+const enabled={occupancy:document.getElementById('lyr-occupancy'),visits:document.getElementById('lyr-visits'),open:document.getElementById('lyr-open'),closed:document.getElementById('lyr-closed')};
+const map=L.map('map',{preferCanvas:true}).setView([38.235,-85.78],13);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap contributors'}).addTo(map);
+const boundaryLayer=L.geoJSON(null,{style:{color:'#10a59a',weight:2,fillColor:'#6ee0ce',fillOpacity:.045},interactive:false}).addTo(map);
+const markerLayer=L.layerGroup().addTo(map);
+let boundaries=[],features={occupancy:[],visits:[],open:[],closed:[]},groups=new Map(),lastLoaded=null;
+const numberFields={occupancy:'Case_Inspection_ID',visits:'B1_ALT_ID',open:'RECORD_ID',closed:'RECORD_ID'};
+function normalize(s){return String(s||'').trim().toUpperCase().replace(/\bSAINT\b/g,'ST').replace(/\bSTREET\b/g,'ST').replace(/\bAVENUE\b/g,'AVE').replace(/\bROAD\b/g,'RD').replace(/\bBOULEVARD\b/g,'BLVD').replace(/\bDRIVE\b/g,'DR').replace(/\bALLEY\b/g,'ALY').replace(/\bLANE\b/g,'LN').replace(/\bPLACE\b/g,'PL').replace(/\bCOURT\b/g,'CT').replace(/[^A-Z0-9]/g,'')}
+function zipValue(s){const z=String(s||'').trim().slice(0,5);return ZIP_CODES.includes(z)?z:''}
+function pointOf(f){const p=f?.properties||{},c=f?.geometry?.coordinates;let lng=Array.isArray(c)?Number(c[0]):NaN,lat=Array.isArray(c)?Number(c[1]):NaN;if(!Number.isFinite(lng))lng=Number(p.LONGITUDE??p.Longitude);if(!Number.isFinite(lat))lat=Number(p.LATITUDE??p.Latitude);return {lng,lat}}
+function pointInRing(p,ring){let inside=false;for(let i=0,j=ring.length-1;i<ring.length;j=i++){const a=ring[i],b=ring[j];if((a[1]>p[1])!==(b[1]>p[1])&&p[0]<(b[0]-a[0])*(p[1]-a[1])/(b[1]-a[1])+a[0])inside=!inside}return inside}
+function insideGeometry(p,g){if(!g)return false;const polygons=g.type==='Polygon'?[g.coordinates]:g.type==='MultiPolygon'?g.coordinates:[];return polygons.some(poly=>poly.length&&pointInRing(p,poly[0])&&!poly.slice(1).some(h=>pointInRing(p,h)))}
+function zipForPoint(lng,lat){for(const f of boundaries){if(insideGeometry([lng,lat],f.geometry))return zipValue(f.properties?.ZIPCODE)}return ''}
+function getZip(p,lng,lat){return zipValue(p.ZIPCODE)||zipForPoint(lng,lat)}
+function addressFor(source,p){return String(source==='occupancy'?(p.Address||p.ADDRESS||''):source==='visits'?(p.FullAddress||p.PartialAddress||''):source==='open'?(p.FULLADDRESS||p.FullAddress||[p.HOUSE_NUMBER,p.HOUSE_FRACTION_NUMBER,p.STREET_DIRECTION,p.STREET_NAME,p.STREET_SUFFIX].filter(Boolean).join(' ')):p.ADDRESS||p.address||'').trim()}
+function dateMillis(value){if(value==null||value==='')return 0;if(typeof value==='number'&&Number.isFinite(value))return value<1e12?value*1000:value;const n=Number(value);if(Number.isFinite(n)&&String(value).trim()!=='')return n<1e12?n*1000:n;const d=Date.parse(value);return Number.isFinite(d)?d:0}
+function dateText(value){const ms=dateMillis(value);return ms?new Date(ms).toLocaleDateString():(value==null?'':String(value))}
+function occCategory(value){const s=String(value||'').toLowerCase();if(s.includes('occupied'))return 'occupied';if(s.includes('vacant structure'))return 'vacant';if(s.includes('vacant lot')||s.includes('abandoned lot'))return 'lot';if(s.includes('abandoned'))return 'abandoned';return 'other'}
+function recordFor(source,f){const p=f?.properties||{},point=pointOf(f);if(!Number.isFinite(point.lat)||!Number.isFinite(point.lng))return null;const address=addressFor(source,p);const zip=getZip(p,point.lng,point.lat);if(!ZIP_CODES.includes(zip))return null;return {source,address:address||'(Address unavailable)',zip,lat:point.lat,lng:point.lng,props:p}}
+function groupKey(r){const n=normalize(r.address);return r.zip+'|'+(n||r.lat.toFixed(5)+','+r.lng.toFixed(5))}
+function addFeatures(source,list){for(const f of list){const r=recordFor(source,f);if(!r)continue;const key=groupKey(r);if(!groups.has(key))groups.set(key,{key,zip:r.zip,address:r.address,lat:r.lat,lng:r.lng,occupancy:[],visits:[],open:[],closed:[]});const g=groups.get(key);if(g.address==='(Address unavailable)'&&r.address!=='(Address unavailable)')g.address=r.address;if(source==='occupancy'||source==='visits'||source==='open'||source==='closed')g[source].push(r)}}
+async function getJson(url){const response=await fetch(url,{cache:'no-store'});if(!response.ok)throw Error('HTTP '+response.status);const json=await response.json();if(json.error)throw Error(json.error.message||'GIS service error');return json}
+async function queryLayer(endpoint,where,outFields,spatialBounds=null){let offset=0,all=[];for(;;){const q=new URLSearchParams({where,outFields,returnGeometry:'true',outSR:'4326',f:'geojson',resultRecordCount:'1000',resultOffset:String(offset)});if(spatialBounds){q.set('geometry',JSON.stringify({xmin:spatialBounds.getWest(),ymin:spatialBounds.getSouth(),xmax:spatialBounds.getEast(),ymax:spatialBounds.getNorth(),spatialReference:{wkid:4326}}));q.set('geometryType','esriGeometryEnvelope');q.set('inSR','4326');q.set('spatialRel','esriSpatialRelIntersects')}const data=await getJson(endpoint+'?'+q.toString());const batch=Array.isArray(data.features)?data.features:[];all.push(...batch);if(!batch.length||batch.length<1000||data.exceededTransferLimit===false)break;offset+=batch.length}return all}
+async function loadBoundaries(){const q=new URLSearchParams({where:"ZIPCODE IN ('40203','40208')",outFields:'ZIPCODE',returnGeometry:'true',outSR:'4326',f:'geojson'});const data=await getJson(ENDPOINTS.boundaries+'?'+q.toString());boundaries=(data.features||[]).filter(f=>ZIP_CODES.includes(zipValue(f.properties?.ZIPCODE)));if(!boundaries.length)throw Error('LOJIC returned no 40203/40208 ZIP polygons');boundaryLayer.clearLayers();boundaryLayer.addData({type:'FeatureCollection',features:boundaries});const b=boundaryLayer.getBounds();if(b.isValid())map.fitBounds(b,{padding:[18,18]});return b}
+async function loadClosed(){const files=Array.from({length:10},(_,i)=>'./data/vap-closed-'+String(i).padStart(2,'0')+'.txt');const batches=await Promise.all(files.map(async file=>{const res=await fetch(file,{cache:'no-store'});if(!res.ok)throw Error(file+' HTTP '+res.status);const encoded=(await res.text()).replace(/\s/g,'');const bytes=Uint8Array.from(atob(encoded),c=>c.charCodeAt(0));if(typeof DecompressionStream==='undefined')throw Error('This browser cannot decompress the closed-WO snapshot');const stream=new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'));return JSON.parse(await new Response(stream).text())}));const out=[];for(const batch of batches)for(const rec of batch){const [id,address,recordStatus,statusDate,recordType,dateOpened,lat,lng]=rec;if(!Number.isFinite(Number(lat))||!Number.isFinite(Number(lng)))continue;const zip=zipForPoint(Number(lng),Number(lat));if(!zip)continue;out.push({type:'Feature',geometry:{type:'Point',coordinates:[Number(lng),Number(lat)]},properties:{RECORD_ID:id,ADDRESS:address,RECORD_STATUS:recordStatus,STATUS_DATE:statusDate,RECORD_TYPE:recordType,DATE_OPENED:dateOpened,ZIPCODE:zip}})}return out}
+function mostRecent(list,field){return list.slice().sort((a,b)=>dateMillis(b.props[field])-dateMillis(a.props[field]))[0]||null}
+function safeText(parent,tag,text,css=''){const node=document.createElement(tag);node.textContent=String(text??'');if(css)node.style.cssText=css;parent.append(node);return node}
+function recordList(parent,title,list,fieldLabels,maxItems=5){if(!list.length)return;safeText(parent,'strong',title,'display:block;margin:9px 0 4px');const ordered=list.slice().sort((a,b)=>dateMillis(b.props.Inspection_Date||b.props.G6A_G6_STATUS_DD||b.props.G6A_G6_COMPL_DD||b.props.DATE_OPENED||b.props.STATUS_DATE)-dateMillis(a.props.Inspection_Date||a.props.G6A_G6_STATUS_DD||a.props.G6A_G6_COMPL_DD||a.props.DATE_OPENED||a.props.STATUS_DATE));for(const row of ordered.slice(0,maxItems)){const p=document.createElement('div');p.style.cssText='padding:6px 0;border-top:1px solid #d9e2e6;font-size:12px;line-height:1.45';for(const [label,key] of fieldLabels){const value=row.props[key];if(value==null||value==='')continue;safeText(p,'div',label+': '+((/DATE|DD$/.test(key))?dateText(value):String(value)))}parent.append(p)}if(list.length>maxItems)safeText(parent,'small',(list.length-maxItems)+' more records at this address.','display:block;margin-top:4px;color:#526b79')}
+function popupFor(g){const box=document.createElement('div');safeText(box,'strong',g.address,'display:block;font-size:15px');safeText(box,'div','ZIP '+g.zip,'color:#526b79;margin:2px 0 6px');if(enabled.occupancy.checked&&g.occupancy.length){const latest=mostRecent(g.occupancy,'Inspection_Date');safeText(box,'div','Latest recorded occupancy: '+(latest?.props.Occupancy||'Not stated'),'font-weight:700;color:#155d65');recordList(box,'PM Occupancy records',g.occupancy,[['Case','Case_Inspection_ID'],['Occupancy','Occupancy'],['Inspection date','Inspection_Date'],['Inspection status','Status']])}if(enabled.visits.checked)recordList(box,'Site visit / violation records',g.visits,[['Case','B1_ALT_ID'],['Occupancy','OccupancyStatus'],['Violation code','VIOLATION_CODE'],['Description','GUIDE_ITEM_TEXT'],['Violation status','GUIDE_ITEM_STATUS'],['Citation amount','CitationAmount'],['Status date','G6A_G6_STATUS_DD']]);if(enabled.open.checked)recordList(box,'Open work orders',g.open,[['Work order','RECORD_ID'],['Type','RECORD_TYPE'],['Status','RECORD_STATUS'],['Opened','DATE_OPENED'],['Description','WORK_DESCRIPTION']]);if(enabled.closed.checked)recordList(box,'Closed work orders · snapshot',g.closed,[['Work order','RECORD_ID'],['Type','RECORD_TYPE'],['Status','RECORD_STATUS'],['Opened','DATE_OPENED'],['Closed/status date','STATUS_DATE']]);if(!(enabled.occupancy.checked&&g.occupancy.length)&&!(enabled.visits.checked&&g.visits.length)&&!(enabled.open.checked&&g.open.length)&&!(enabled.closed.checked&&g.closed.length))safeText(box,'div','No records in the selected layers.');return box}
+function occupancyColor(g){const r=mostRecent(g.occupancy,'Inspection_Date');const cat=occCategory(r?.props.Occupancy);return cat==='occupied'?'#20a898':cat==='vacant'?'#e7a13c':cat==='lot'?'#e07143':cat==='abandoned'?'#dc6571':'#7f929c'}
+function groupColor(g){if(enabled.occupancy.checked&&g.occupancy.length)return occupancyColor(g);if(enabled.visits.checked&&g.visits.length)return '#ee9d3f';if(enabled.open.checked&&g.open.length)return '#248fca';return '#8067be'}
+function enabledRecords(g){return (enabled.occupancy.checked?g.occupancy.length:0)+(enabled.visits.checked?g.visits.length:0)+(enabled.open.checked?g.open.length:0)+(enabled.closed.checked?g.closed.length:0)}
+function searchText(g){const parts=[g.address,g.zip];for(const key of ['occupancy','visits','open','closed'])if(enabled[key].checked)for(const r of g[key])parts.push(...Object.values(r.props).map(v=>String(v??'')));return parts.join(' ').toLowerCase()}
+function filteredGroups(){const q=search.value.trim().toLowerCase(),chosenZip=zipSelect.value,cat=occupancyFilter.value;return [...groups.values()].filter(g=>{if(chosenZip!=='all'&&g.zip!==chosenZip)return false;if(!enabledRecords(g))return false;if(enabled.occupancy.checked&&cat!=='all'){const latest=mostRecent(g.occupancy,'Inspection_Date');if(!latest||occCategory(latest.props.Occupancy)!==cat)return false}if(q&&!searchText(g).includes(q))return false;return true}).sort((a,b)=>a.zip.localeCompare(b.zip)||a.address.localeCompare(b.address))}
+function render(){markerLayer.clearLayers();recordsEl.replaceChildren();const visible=filteredGroups();for(const g of visible){const item=document.createElement('button');item.type='button';item.className='record';const title=safeText(item,'strong',g.address);const latest=mostRecent(g.occupancy,'Inspection_Date');const detail=[g.zip,latest?.props.Occupancy||'',g.visits.length?g.visits.length+' visit/violation records':'',g.open.length?g.open.length+' open WOs':'',g.closed.length?g.closed.length+' closed WOs':''].filter(Boolean).join(' · ');safeText(item,'small',detail||'VAP source record');for(const [key,label,color] of [['occupancy','Occupancy','#148c82'],['visits','Visits / violations','#d9892b'],['open','Open WOs','#1878a8'],['closed','Closed WOs','#7256aa']])if(enabled[key].checked&&g[key].length){const badge=document.createElement('span');badge.className='pill';badge.style.borderLeft='4px solid '+color;badge.textContent=label+' · '+g[key].length;item.append(badge)}const marker=L.circleMarker([g.lat,g.lng],{radius:Math.min(10,5+Math.log1p(enabledRecords(g))),color:'#173747',weight:1,fillColor:groupColor(g),fillOpacity:.9}).addTo(markerLayer);marker.bindPopup(popupFor(g),{maxWidth:390,minWidth:255});item.addEventListener('click',()=>{recordsEl.querySelectorAll('.selected').forEach(x=>x.classList.remove('selected'));item.classList.add('selected');map.setView([g.lat,g.lng],16);marker.openPopup()});marker.on('click',()=>{recordsEl.querySelectorAll('.selected').forEach(x=>x.classList.remove('selected'));item.classList.add('selected');item.scrollIntoView({block:'nearest'})});recordsEl.append(item)}if(!visible.length)safeText(recordsEl,'div','No matching addresses. Turn on a layer or adjust the filters.','empty');exportButton.disabled=!visible.length;const chosen=zipSelect.value;summaryEl.textContent=(lastLoaded?'Updated '+lastLoaded.toLocaleString()+' · ':'')+'Showing '+visible.length.toLocaleString()+' mapped addresses'+(chosen==='all'?' · ZIP 40203 + 40208':' · ZIP '+chosen)+' · Loaded: '+features.occupancy.length.toLocaleString()+' occupancy records, '+features.visits.length.toLocaleString()+' visit/violation records, '+features.open.length.toLocaleString()+' open WOs, '+features.closed.length.toLocaleString()+' closed WOs';}
+function csvCell(v){return '"'+String(v??'').replaceAll('"','""')+'"'}
+function exportCsv(){const rows=[['zip','address','source','record_id','record_type','status','occupancy','date','violation_code','description']];for(const g of filteredGroups()){const selected=[];for(const key of ['occupancy','visits','open','closed'])if(enabled[key].checked)selected.push(...g[key]);for(const r of selected){const p=r.props;rows.push([g.zip,g.address,r.source,p.Case_Inspection_ID||p.B1_ALT_ID||p.RECORD_ID||'',p.RECORD_TYPE||'',p.Status||p.GUIDE_ITEM_STATUS||p.RECORD_STATUS||'',p.Occupancy||p.OccupancyStatus||'',p.Inspection_Date||p.G6A_G6_STATUS_DD||p.DATE_OPENED||p.STATUS_DATE||'',p.VIOLATION_CODE||'',p.GUIDE_ITEM_TEXT||p.WORK_DESCRIPTION||''])}}const blob=new Blob([rows.map(row=>row.map(csvCell).join(',')).join('\r\n')],{type:'text/csv;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='VAP_'+(zipSelect.value==='all'?'40203_40208':zipSelect.value)+'_records.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)}
+async function refreshData(){refreshButton.disabled=true;exportButton.disabled=true;statusEl.textContent='Loading LOJIC ZIP boundaries…';recordsEl.innerHTML='<div class="empty">Loading public property records…</div>';features={occupancy:[],visits:[],open:[],closed:[]};groups.clear();lastLoaded=null;try{const bounds=await loadBoundaries();statusEl.textContent='Loading occupancy, inspection, and work-order records…';const qs="ZIPCODE IN ('40203','40208')";const tasks=[
+  queryLayer(ENDPOINTS.occupancy,qs,'Case_Inspection_ID,Address,Occupancy,Inspection_Date,Status,ZIPCODE,LATITUDE,LONGITUDE,COUNCIL_DISTRICT,CENSUS_TRACT,ObjectId'),
+  queryLayer(ENDPOINTS.visits,'1=1','B1_ALT_ID,FullAddress,PartialAddress,Latitude,Longitude,PARCEL_ID,OccupancyStatus,GUIDE_ITEM_TEXT,VIOLATION_CODE,GUIDE_ITEM_STATUS,CitationAmount,G6A_G6_STATUS_DD,G6A_G6_COMPL_DD',bounds),
+  queryLayer(ENDPOINTS.open,qs,'RECORD_ID,RECORD_STATUS,RECORD_TYPE,WORK_DESCRIPTION,DATE_OPENED,HOUSE_NUMBER,HOUSE_FRACTION_NUMBER,STREET_DIRECTION,STREET_NAME,STREET_SUFFIX,UNIT_NUMBER,ZIPCODE,LATITUDE,LONGITUDE,ObjectId'),
+  loadClosed()
+];const results=await Promise.allSettled(tasks);const labels=['PM Occupancy','Site Visit Violations','Open work orders','Closed work orders'];const warnings=[];for(let i=0;i<results.length;i++){if(results[i].status==='fulfilled'){const key=['occupancy','visits','open','closed'][i];features[key]=results[i].value;if(key==='visits')features[key]=features[key].filter(f=>{const p=pointOf(f);return Number.isFinite(p.lng)&&Number.isFinite(p.lat)&&Boolean(zipForPoint(p.lng,p.lat))});if(key==='closed')features[key]=features[key].filter(f=>{const p=pointOf(f);return Number.isFinite(p.lng)&&Number.isFinite(p.lat)&&Boolean(zipForPoint(p.lng,p.lat))})}else warnings.push(labels[i]+': '+results[i].reason.message)}for(const key of ['occupancy','visits','open','closed'])addFeatures(key,features[key]);lastLoaded=new Date();render();statusEl.textContent=warnings.length?'Loaded available sources; '+warnings.join(' · '):'All four data sources loaded.';if(!warnings.length)statusEl.textContent+='';const chosen=zipSelect.value;if(chosen==='all'&&bounds.isValid())map.fitBounds(bounds,{padding:[18,18]});else if(chosen!=='all'){const b=L.geoJSON({type:'FeatureCollection',features:boundaries.filter(f=>zipValue(f.properties?.ZIPCODE)===chosen)}).getBounds();if(b.isValid())map.fitBounds(b,{padding:[18,18]})}}catch(e){statusEl.textContent='Could not load the ZIP boundary: '+e.message;recordsEl.innerHTML='<div class="empty">The LOJIC ZIP boundary service is unavailable, so the map cannot safely filter these two ZIP codes.</div>'}finally{refreshButton.disabled=false;map.invalidateSize()}}
+for(const el of Object.values(enabled))el.addEventListener('change',render);
+zipSelect.addEventListener('change',()=>{render();const z=zipSelect.value;const chosen=z==='all'?boundaries:boundaries.filter(f=>zipValue(f.properties?.ZIPCODE)===z);const b=L.geoJSON({type:'FeatureCollection',features:chosen}).getBounds();if(b.isValid())map.fitBounds(b,{padding:[18,18]})});
+occupancyFilter.addEventListener('change',render);search.addEventListener('input',render);refreshButton.addEventListener('click',refreshData);exportButton.addEventListener('click',exportCsv);
+refreshData();
+</script>
+</body>
+</html>
