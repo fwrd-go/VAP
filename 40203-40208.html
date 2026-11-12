@@ -113,7 +113,7 @@ const boundaryLayer=L.geoJSON(null,{style:{color:'#10a59a',weight:2,fillColor:'#
 const markerLayer=L.layerGroup().addTo(map);
 let boundaries=[],features={occupancy:[],visits:[],open:[],closed:[]},groups=new Map(),lastLoaded=null;
 const numberFields={occupancy:'Case_Inspection_ID',visits:'B1_ALT_ID',open:'RECORD_ID',closed:'RECORD_ID'};
-function normalize(s){return String(s||'').trim().toUpperCase().replace(/\bSAINT\b/g,'ST').replace(/\bSTREET\b/g,'ST').replace(/\bAVENUE\b/g,'AVE').replace(/\bROAD\b/g,'RD').replace(/\bBOULEVARD\b/g,'BLVD').replace(/\bDRIVE\b/g,'DR').replace(/\bALLEY\b/g,'ALY').replace(/\bLANE\b/g,'LN').replace(/\bPLACE\b/g,'PL').replace(/\bCOURT\b/g,'CT').replace(/[^A-Z0-9]/g,'')}
+function normalize(s){return String(s||'').split(',')[0].trim().toUpperCase().replace(/\bSAINT\b/g,'ST').replace(/\bSTREET\b/g,'ST').replace(/\bAVENUE\b/g,'AVE').replace(/\bROAD\b/g,'RD').replace(/\bBOULEVARD\b/g,'BLVD').replace(/\bDRIVE\b/g,'DR').replace(/\bALLEY\b/g,'ALY').replace(/\bLANE\b/g,'LN').replace(/\bPLACE\b/g,'PL').replace(/\bCOURT\b/g,'CT').replace(/[^A-Z0-9]/g,'')}
 function zipValue(s){const z=String(s||'').trim().slice(0,5);return ZIP_CODES.includes(z)?z:''}
 function pointOf(f){const p=f?.properties||{},c=f?.geometry?.coordinates;let lng=Array.isArray(c)?Number(c[0]):NaN,lat=Array.isArray(c)?Number(c[1]):NaN;if(!Number.isFinite(lng))lng=Number(p.LONGITUDE??p.Longitude);if(!Number.isFinite(lat))lat=Number(p.LATITUDE??p.Latitude);return {lng,lat}}
 function pointInRing(p,ring){let inside=false;for(let i=0,j=ring.length-1;i<ring.length;j=i++){const a=ring[i],b=ring[j];if((a[1]>p[1])!==(b[1]>p[1])&&p[0]<(b[0]-a[0])*(p[1]-a[1])/(b[1]-a[1])+a[0])inside=!inside}return inside}
