@@ -1,13 +1,13 @@
 {
-  "checked_at": "2026-11-18T20:51:14.398838+00:00",
+  "checked_at": "2026-11-19T20:55:38.923545+00:00",
   "source": "Louisville ePropertyPlus published inventory, exact property details and canonical listing pages",
   "inventory_endpoint": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedProperties",
   "source_rows": 332,
   "unique_source_addresses": 331,
   "duplicate_source_rows": 1,
-  "published_total": 548,
+  "published_total": 547,
   "published_status_counts": {
-    "Available": 496,
+    "Available": 495,
     "Community Impact Solicitation": 3,
     "Demo For Deed": 31,
     "Approved Application": 1,
