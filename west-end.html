@@ -66,7 +66,7 @@ area.style.cssText='margin:4px 0 8px;color:#526b79';
 area.textContent=r.neighborhood||'';
 wrapper.append(area);
 const lienSummary=document.createElement('div');
-lienSummary.style.cssText='position:sticky;top:0;z-index:2;margin:6px 0 8px;padding:8px 10px;border-left:4px solid #087d89;background:#eef7f8;border-radius:4px;color:#183341;font-weight:700';
+lienSummary.style.cssText='margin:6px 0 8px;padding:8px 10px;border-left:4px solid #087d89;background:#eef7f8;border-radius:4px;color:#183341;font-weight:700';
 lienSummary.textContent=resolvedState==='loading'?'Checking lien history…':resolvedState==='error'?'Lien history unavailable':'Awaiting payment liens: '+awaiting.length+' record'+(awaiting.length===1?'':'s');
 wrapper.append(lienSummary);
 const history=document.createElement('details');
