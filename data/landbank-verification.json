@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-26T21:51:37.197676+00:00",
+  "checked_at": "2026-11-27T21:35:01.700254+00:00",
   "source": "Louisville ePropertyPlus published inventory, exact property details and canonical listing pages",
   "inventory_endpoint": "https://public-lky.epropertyplus.com/landmgmtpub/remote/public/property/getPublishedProperties",
   "source_rows": 332,
